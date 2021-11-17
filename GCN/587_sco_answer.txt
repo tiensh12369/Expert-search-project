@@ -1,1 +1,86 @@
+"JinChan-Yong" : {"Scienceon" : "Division of Information & Electronic CommerceWonkwang University"}
+"NamSoo-Tai" : {"Scienceon" : "Institute of General EducationPusan National University"}
+"OhChang Song" : {"Scienceon" : "영남대학교 산림자원 및 조경학과"}
+"ShinSeong-Yoon" : {"Scienceon" : "School of Computer Information & Communication EngineeringKunsan National University"}
+"SimJi-Soo" : {"Scienceon" : "국토연구원 도시연구본부"}
+"구자환" : {"Scienceon" : "성균관대학교 사회과학대학"}
+"권두순" : {"Scienceon" : "청운대학교 교양대학"}
+"권혜민" : {"Scienceon" : "서울여자대학교 정보보호학과"}
+"김경희" : {"Scienceon" : "한림대학교 미디어커뮤니케이션학부"}
+"김기현" : {"Scienceon" : "성신여자대학교 정보시스템공학과"}
+"김도형" : {"Scienceon" : "성균관대학교 소프트웨어대학"}
+"김동현" : {"Scienceon" : "Dept of SoftwareDongseo University"}
+"김명주" : {"Scienceon" : "서울여자대학교 정보보호학과"}
+"김성준" : {"Scienceon" : "남서울대학교 복지경영대학원 빅데이터콘텐츠융합학과"}
+"김아연" : {"Scienceon" : "서울시립대학교 조경학과"}
+"김영미" : {"Scienceon" : "서원대학교 레저스포츠학과"}
+"김유나" : {"Scienceon" : "서울예술대학교 광고창작과"}
+"김응모" : {"Scienceon" : "성균관대학교 사회과학대학 소비자가족학과 / 소프트웨어대학"}
+"김지은" : {"Scienceon" : "서울시립대학교 일반대학원 조경학과 대학원"}
+"김태연" : {"Scienceon" : "건국대학교 지식콘텐츠연구소"}
+"김한나" : {"Scienceon" : "순천향대학교 미래융합기술학과"}
+"김호걸" : {"Scienceon" : "청주대학교 휴먼환경디자인학부 조경도시계획전공"}
+"김호용" : {"Scienceon" : "한국과학기술정보연구원"}
+"김홍광" : {"Scienceon" : "건국대학교 행정문제연구소"}
+"남수태" : {"Scienceon" : "Wonkwang University"}
+"남윤재" : {"Scienceon" : "경희대학교 문화관광콘텐츠학과"}
+"남인용" : {"Scienceon" : "부경대학교 신문방송학과"}
+"노영희" : {"Scienceon" : "건국대학교 문헌정보학과"}
+"노태협" : {"Scienceon" : "덕성여자대학교 경영학과"}
+"륙치금" : {"Scienceon" : "부경대학교 신문방송학과"}
+"문재영" : {"Scienceon" : "동서대학교 글로벌경영학부"}
+"박수빈" : {"Scienceon" : "충북대학교 빅데이터협동과정"}
+"박재열" : {"Scienceon" : "충북대학교 정보통신공학과"}
+"박진홍" : {"Scienceon" : "경희대학교 소셜네트워크과학과"}
+"박찬" : {"Scienceon" : "서울시립대학교 조경학과"}
+"반재훈" : {"Scienceon" : "Department of IT ManagementKosin University"}
+"백연희" : {"Scienceon" : "충북대학교 빅데이터 협동과정"}
+"변혜원" : {"Scienceon" : "성신여자대학교 정보시스템공학과"}
+"복경수" : {"Scienceon" : "원광대학교 SW 융합학과"}
+"복경수" : {"Scienceon" : "원광대학교 SW융합학과"}
+"복경수" : {"Scienceon" : "충북대학교 정보통신공학과"}
+"서동민" : {"Scienceon" : "한국과학기술정보연구원"}
+"서일정" : {"Scienceon" : "경기대학교"}
+"서주환" : {"Scienceon" : "경희대학교 예술.디자인대학 환경조경디자인학과"}
+"선형주" : {"Scienceon" : "연세대학교 정보대학원"}
+"설상훈" : {"Scienceon" : "Interdisciplinary Course for Service Design ConvergenceSungkyunkwan University"}
+"성기훈" : {"Scienceon" : "Department of Mechanical EngineeringSungkyunkwan University"}
+"손석현" : {"Scienceon" : "인천국제공항공사 공항산업기술연구원"}
+"송재오" : {"Scienceon" : "주 제오시스 기업부설연구소"}
+"신성윤" : {"Scienceon" : "Kunsan National University"}
+"신현보" : {"Scienceon" : "연세대학교 정보대학원"}
+"안종욱" : {"Scienceon" : "안양대학교 도시정보공학과"}
+"양재식" : {"Scienceon" : "서원대학교 레저스포츠학과"}
+"우경숙" : {"Scienceon" : "경희대학교 일반대학원 환경조경학과"}
+"유리화" : {"Scienceon" : "국립산림과학원 산림복지연구과"}
+"이광희" : {"Scienceon" : "한국연구재단 인재양성실"}
+"이규혜" : {"Scienceon" : "한양대학교 의류학과"}
+"이규혜" : {"Scienceon" : "한양대학교 의류학과 휴먼테크융합전공"}
+"이새봄" : {"Scienceon" : "경희대학교 빅데이터연구센터"}
+"이수련" : {"Scienceon" : "서울여자대학교 정보보호학과"}
+"이승훈" : {"Scienceon" : "대검찰청 디지털수사과"}
+"이인수" : {"Scienceon" : "대검찰청 디지털수사과"}
+"이정하" : {"Scienceon" : "과학기술연합대학원대학교 건설환경공학과"}
+"이정하" : {"Scienceon" : "한국건설기술연구원"}
+"이정희" : {"Scienceon" : "국립산림과학원 산림복지연구과"}
+"이준기" : {"Scienceon" : "연세대학교 정보대학원"}
+"임종태" : {"Scienceon" : "충북대학교 정보통신공학과"}
+"장윤선" : {"Scienceon" : "국립산림과학원 산림복지연구과"}
+"정대근" : {"Scienceon" : "전남대학교 문헌정보학과"}
+"정영섭" : {"Scienceon" : "순천향대학교 빅데이터공학과"}
+"정주익" : {"Scienceon" : "인천국제공항공사 공항산업기술연구원"}
+"조재희" : {"Scienceon" : "광운대학교"}
+"진찬용" : {"Scienceon" : "Wonkwang University"}
+"차희준" : {"Scienceon" : "인천국제공항공사 공항산업기술연구원"}
+"천탠이" : {"Scienceon" : "한양대학교 의류학과"}
+"최도진" : {"Scienceon" : "충북대학교 정보통신공학과"}
+"최영현" : {"Scienceon" : "한양대학교 의류학과"}
+"최은정" : {"Scienceon" : "서울여자대학교 정보보호학과"}
+"최호성" : {"Scienceon" : "한국산학연협회"}
+"하상현" : {"Scienceon" : "주비투인"}
+"하종수" : {"Scienceon" : "Department of Broadcasting & ImageKyungnam College of Information & Technology"}
+"한상필" : {"Scienceon" : "한양대학교 광고홍보학과"}
+"한정섭" : {"Scienceon" : "남서울대학교 복지경영대학원 빅데이터콘텐츠융합학과"}
+"홍주현" : {"Scienceon" : "국민대학교 언론정보학부"}
+"황석환" : {"Scienceon" : "한국건설기술연구원"}
 "황석환" : {"Scienceon" : "한국건설기술연구원 돌발홍수연구센터"}
