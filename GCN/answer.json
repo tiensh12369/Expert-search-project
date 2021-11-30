@@ -264,21 +264,14 @@
       "Scienceon":"Wonkwang University"    
    },
    "Chan-Yong Jin" : {"DBPIA" : "Wonkwang University Division of Information and Electronic Commerce (Institute of Convergence and Creativity)"}
-   ,
-   "NamSoo-Tai":{
-      "Scienceon":"Institute of General EducationPusan National University"
-   },
+   ,   
    "Soo-Tai Nam" : {"DBPIA" : "Wonkwang University Division of Information and Electronic Commerce (Institute of Convergence and Creativity)"},
-
    "남수태":{
       "Scienceon":"Wonkwang University"      
    },
    "Soo-tai Nam":{
       "DBPIA":"부산대학교 경영학과"
-   },
-   "ShinSeong-Yoon":{
-      "Scienceon":"School of Computer Information & Communication Engineering, Kunsan National University"
-   },
+   },   
    "신성윤0":{
       "Scienceon":"Kunsan National University"
    },
@@ -290,10 +283,7 @@
    },
    "신성윤2":{
       "DBPIA":"아주대학교 공공정책대학원 부동산학"
-   },
-   "SimJi-Soo":{
-      "Scienceon":"국토연구원 도시연구본부"
-   },
+   }, 
    "구자환":{
       "Scienceon":"성균관대학교 사회과학대학"
    },
@@ -311,19 +301,9 @@
    },
    "김도형":{
 
-
-
-
-
-
-
-
-
-
-
       "Scienceon":"성균관대학교 소프트웨어대학"
    },
-   "김동현":{
+   "김동현2":{
       "Scienceon":"Dept of Software, Dongseo University"
    },
    "김명주":{
@@ -595,10 +575,7 @@
    },
    "Chi Ung Song":{
       "DBPIA":"과학기술정책연구원 Division of Global Innovation Strategy"
-   },
-   "Chung  Kyu-Yup":{
-      "DBPIA":"세종대학교 호텔경영학과"
-   },
+   },   
    "Dae-Shik Kim":{
       "DBPIA":"카이스트 전기 및 전자과"
    },
@@ -693,7 +670,7 @@
       "DBPIA":"서울여자대학교 일반대학원 디자인학과"
    },
    "Lee, Soon-A":{
-      "DBPIA":" 경성대학교 외식서비스경영학과"
+      "DBPIA":"경성대학교 외식서비스경영학과"
    },
    "MINH NHAT TRAN":{
       "DBPIA":""
@@ -744,13 +721,13 @@
       "DBPIA":""
    },
    "Seunghee Park":{
-      "DBPIA":"성균관대학교 School of Civil"
+      "DBPIA":"성균관대학교 School of Civil, Architectural Engineering and Landscape Architecture"
    },
    "Seungjee Hong":{
       "DBPIA":"Chungnam National University Department of Agricultural Economics"
    },
    "Seungwon Oh":{
-      "DBPIA":"Chonnam National University Department of Statistics"
+      "DBPIA":"Chonnam National University Department of Statistics, College of Natural Sciences"
    },
    "So Hyun Kwon":{
       "DBPIA":"과학기술정책연구원 Division of Global Innovation Strategy"
@@ -796,13 +773,7 @@
    },
    "Younghee Noh":{
       "DBPIA":"건국대학교 문헌정보학과"
-   },
-   "Zhang0":{
-      "DBPIA":" Bingchao"
-   },
-   "Zhang1":{
-      "DBPIA":" Xuantao"
-   },
+   },   
    "吳昡妵":{
       "DBPIA":"울산대학교 중국어중국학과"
    },
@@ -1232,10 +1203,10 @@
    "김동규":{
       "DBPIA":"동명대학교 로봇시스템 공학과"
    },
-   "김동연0":{
+   "김동연":{
       "DBPIA":"KAIST College of Business"
    },
-   "김동영1":{
+   "김동영":{
       "DBPIA":"경기연구원 생태환경연구실"
    },
    "김동욱":{
@@ -1496,10 +1467,10 @@
    "김소라":{
       "DBPIA":"서울여자대학교 디자인대학원"
    },
-   "김소연0":{
+   "김소연":{
       "DBPIA":"국립한밭대학교 실내건축학과"
    },
-   "김소영1":{
+   "김소영":{
       "DBPIA":""
    },
    "김소용":{
@@ -1658,10 +1629,10 @@
    "김용하":{
       "DBPIA":"건양대학교 병원경영학과"
    },
-   "김용회0":{
+   "김용회":{
       "DBPIA":"성균관대학교 일반대학원 사회복지학과"
    },
-   "김용희1":{
+   "김용희":{
       "DBPIA":"숭실대학교 대학원 경영학과"
    },
    "김욱":{
@@ -1704,7 +1675,7 @@
       "DBPIA":"한국항공우주연구원 정책연구부"
    },
    "김은주0":{
-      "DBPIA":"과학기술정책연구원 Global Training Program Team"
+      "DBPIA":"과학기술정책연구원 Global Training Program Team, Office of STI ODA Project (IICC)"
    },
    "김은주1":{
       "DBPIA":"관광경영학회"
@@ -3729,7 +3700,7 @@
       "DBPIA":"과학기술정책연구원"
    },
    "이상훈1":{
-      "DBPIA":"한국한의학연구원 Department of Medical Consilience"
+      "DBPIA":"한국한의학연구원 Department of Medical Consilience, Graduate school"
    },
    "이새롬":{
       "DBPIA":"경북대학교 경영학부"
@@ -4181,10 +4152,10 @@
    "이지훈":{
       "DBPIA":"서원대학교 Dept. of Smart Information and Telecomm. Engineering"
    },
-   "이진구0":{
+   "이진구":{
       "DBPIA":"한국기술교육대학교 테크노인력개발전문대학원"
    },
-   "이진규1":{
+   "이진규":{
       "DBPIA":"국민대학교 대학원 산림자원학과"
    },
    "이진균":{
@@ -4256,10 +4227,10 @@
    "이현종":{
       "DBPIA":"신한대학교 글로벌관광경영학과"
    },
-   "이현주0":{
+   "이현주":{
       "DBPIA":"Konkuk University Department of Mass Communication"
    },
-   "이현준1":{
+   "이현준":{
       "DBPIA":""
    },
    "이현진":{
@@ -4896,7 +4867,7 @@
       "DBPIA":"경희대학교 컨벤션전시경영학과"
    },
    "주우붕":{
-      "DBPIA":"YeungNam University Blockchian Policy Research Center"
+      "DBPIA":"YeungNam University Blockchian Policy Research Center, Cyber Emotions Rsearch Institute"
    },
    "주은신":{
       "DBPIA":"BNU-HKBU United International College 홍보광고학과"
@@ -4920,7 +4891,7 @@
       "DBPIA":"강원대학교 호텔경영과"
    },
    "진광선":{
-      "DBPIA":"Universitat Politécnica deCatalunya Escola TècnicaSuperior dArquitectura de Barcelona"
+      "DBPIA":"Universitat Politécnica deCatalunya Escola TècnicaSuperior d\"Arquitectura de Barcelona"
    },
    "진설아":{
       "DBPIA":"과학기술정책연구원"
