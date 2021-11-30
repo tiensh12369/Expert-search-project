@@ -261,15 +261,17 @@
       "DBPIA":"성균관대학교"
    },
    "진찬용":{
-      "Scienceon":"Wonkwang University",
-      "DBPIA":"Wonkwang University Division of Information and Electronic Commerce (Institute of Convergence and Creativity)"
+      "Scienceon":"Wonkwang University"    
    },
+   "Chan-Yong Jin" : {"DBPIA" : "Wonkwang University Division of Information and Electronic Commerce (Institute of Convergence and Creativity)"}
+   ,
    "NamSoo-Tai":{
       "Scienceon":"Institute of General EducationPusan National University"
    },
+   "Soo-Tai Nam" : {"DBPIA" : "Wonkwang University Division of Information and Electronic Commerce (Institute of Convergence and Creativity)"},
+
    "남수태":{
-      "Scienceon":"Wonkwang University",
-      "DBPIA":"Wonkwang University Division of Information and Electronic Commerce (Institute of Convergence and Creativity)"
+      "Scienceon":"Wonkwang University"      
    },
    "Soo-tai Nam":{
       "DBPIA":"부산대학교 경영학과"
