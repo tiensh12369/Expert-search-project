@@ -185,4 +185,4 @@ for i in range(len(key_querys)):
 print(sorted(Answer_dict.items()))
 
 id_domestic = client['ID']['Domestic']
-#id_domestic.insert_many(Answer_dict.values())
+id_domestic.insert_many(Answer_dict.values())
