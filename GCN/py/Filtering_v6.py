@@ -2,8 +2,8 @@ from pymongo import MongoClient
 import itertools
 import numpy as np
 import jaro
-import re
 import sys
+import time
 
 client = MongoClient('mongodb://203.255.92.141:27017', authSource='admin')
 filter_info = client['PUBLIC']['FilterInfo'] #필터접근
@@ -72,7 +72,7 @@ def complex_filter(value, filters, base) :
         if base[filters[j]] <= float(value) < base[filters[j]+1]:
             return True
     return False
-
+start = time.time()
 for i in range(len(key_querys)):
     mng_dict = {}
     for key_query in key_querys[i]: #rawdata(magid, paper) insert
@@ -85,7 +85,7 @@ for i in range(len(key_querys)):
             exi_inst = key_query['ldAgency']
             mng_name =  key_query['mng']
             mng_id = key_query['mngId']
-            paper = [key_query['_id']]
+            paper = key_query['_id']
 
             if simple_filter(ori_inst, ninst) and simple_filter(ntis_year, nyear) and complex_filter(ntis_fund, nfund, fund) and complex_filter(ntis_rsc, nrsc, rsc):
                 if mng_id not in mng_dict:
@@ -100,7 +100,7 @@ for i in range(len(key_querys)):
             exi_inst = key_query['author_inst'].split(';')[-2]
             mng_name = key_query['author'].split(';')[-2]
             mng_id = key_query['mngId']
-            paper = [key_query['_id']]
+            paper = key_query['_id']
 
             if simple_filter(paper_year, pyear) and simple_filter(paper_journal, pjournal) and simple_filter(ori_inst, pinst) and simple_filter(paper_lang, plang):
                 if mng_id not in mng_dict:
@@ -178,65 +178,8 @@ for i in range(len(key_querys)):
 
                 count += 1
 
-def isEnglishOrKorean(input_s):
-    k_count = 0
-    e_count = 0
-    for c in input_s:
-        if ord('가') <= ord(c) <= ord('힣'):
-            k_count+=1
-        elif ord('a') <= ord(c.lower()) <= ord('z'):
-            e_count+=1
-    return "k" if k_count>1 else "e"
-
-def check_college(univ0):
-    branch_set = ['성균관대학교', '건국대학교', '한양대학교']
-    univName = client['PUBLIC']['CollegeName']
-    univ1 = re.sub("산학협력단|병원","",univ0)
-    univ2 = re.sub("대학교","대학교 ",univ1)
-
-    try:
-        if isEnglishOrKorean(univ0) == 'e':
-            univ0 = univ0.upper()
-            univ0 = univ0.replace('.', ',')
-            univ = univ0.split(', ')
-        else:
-            univ = univ2.replace(",", "").split()
-            univ = list(set(univ))   
-            
-        for uni in univ:
-            if uni in branch_set:
-                if ("ERICA" or "에리카") in univ0:
-                    univ[univ.index("한양대학교")] = "한양대학교(ERICA캠퍼스)"
-                elif ("글로컬" or "GLOCAL") in univ0:
-                    univ[univ.index("건국대학교")] = "건국대학교 GLOCAL(글로컬)캠퍼스"
-                elif "자연과학캠퍼스" in univ0:
-                    univ[univ.index("성균관대학교")] = "성균관대학교(자연과학캠퍼스)"
-
-        univs = '{"$or": ['
-        for u in range(len(univ)):
-            if univ[-1] == univ[u]:
-                univs += '{"inputName": "' + univ[u] + '"}'
-            else:
-                univs += '{"inputName": "' + univ[u] + '"}, '
-        univs += ']}'
-
-        univ_query = univName.find_one(eval(univs))
-
-        if univ_query is None:
-            print("Search inst None")
-            return univ0, False
-        else:
-            return univ_query['originalName'], True 
-        
-    except SyntaxError as e:
-        print(e)
-        print(univ0)
-        return univ0, False
-
-def filter(name, site, inst, rawdata):
-    instbool = False
+def filter(site, rawdata):
     if site == 'NTIS' :
-        inst, instbool = check_college(inst)
         coauthor = rawdata['rsc'].split(";")
         year = int(rawdata['prdStart'][:4])
         keyword = rawdata['koKeyword'].split(",")
@@ -245,7 +188,6 @@ def filter(name, site, inst, rawdata):
         title = ""
 
     else :
-        inst, instbool = check_college(inst)
         coauthor = rawdata['author'].split(";")[1:-1]
         year = int(rawdata['issue_year'][:4])
         
@@ -262,16 +204,15 @@ def filter(name, site, inst, rawdata):
         conference = rawdata['issue_inst']
         title = rawdata['title']
 
-    return inst, coauthor, year, keyword, journal, conference, title, instbool
+    return coauthor, year, keyword, journal, conference, title
 
 def Secondary_filter(name, site1, inst1, raw_one1, site2, inst2, raw_one2):
     inst = 0
-    inst1, coauthor1, year1, keyword1, journal1, conference1, title1, instbool1 = filter(name, site1, inst1, raw_one1)
-    inst2, coauthor2, year2, keyword2, journal2, conference2, title2, instbool2 = filter(name, site2, inst2, raw_one2)
+    coauthor1, year1, keyword1, journal1, conference1, title1 = filter(site1, raw_one1)
+    coauthor2, year2, keyword2, journal2, conference2, title2= filter(site2, raw_one2)
 
-    if instbool1 and instbool2:
-        if inst1 == inst2:
-            inst = 1
+    if inst1 == inst2:
+        inst = 1
     else:
         inst = jaro.jaro_winkler_metric(inst1, inst2)
         
@@ -367,8 +308,8 @@ for data in data0 :
                 for ra1, ra2 in zip(raws1, raws2):
                     site1 = ra1['site']
                     site2 = ra2['site']
-                    inst1 = data0[pair[0]][site1]['inst']
-                    inst2 = data0[pair[1]][site2]['inst']
+                    inst1 = data0[pair[0]][site1]['oriInst']
+                    inst2 = data0[pair[1]][site2]['oriInst']
 
                     if Secondary_filter(name[0], site1, inst1, ra1, site2, inst2, ra2) >= 3:
                         deleteList.append(pair[1])
@@ -393,5 +334,7 @@ for d in data0 :
     if 'raws' in data0[d] :
         del data0[d]['raws']
 
-id_domestic.insert_many(data0.values()) #mongodb 추가
-print("Integration OK")
+# id_domestic.insert_many(data0.values()) #mongodb 추가
+print("Integration OK", time.time() - start)
+
+#종훈이코드 exec
