@@ -2,15 +2,16 @@ from pymongo import MongoClient
 import itertools
 import numpy as np
 import jaro
+import sys
 import time
-#import multicpu
+import multicpu
 
 client = MongoClient('mongodb://203.255.92.141:27017', authSource='admin')
 filter_info = client['PUBLIC']['FilterInfo'] #필터접근
 filters_category = client['PUBLIC']['FilterCategory']
 
-f_id = 0 #input
-keyid = 717 #keyid
+f_id = int(sys.argv[1]) #input
+keyid = int(sys.argv[2])  #keyid
 
 fid_key_query = filter_info.find_one({ '$and': [{ 'fId': f_id }, { 'keyId': keyid }]}) #f_id serach
 ninst = []
@@ -60,7 +61,7 @@ fund = [0, 50000000, 100000000, 300000000, 500000000, 1000000000, 10000000000000
 rsc = [0, 10, 30, 50, 100, 100000]
 
 mng_check = []
-dbpia_mng_ids = []
+dbpia_mng_ids = {}
 dbpia_paper_year = []
 dbpia_paper_journal = []
 dbpia_ori_inst = []
@@ -106,7 +107,7 @@ def fc_complex_filter(category, base, fc_dict):
         if base[j] <= float(category) < base[j+1]:
             fc_dict[str(j)] += 1
             return fc_dict
-
+end1 = 0
 for i in range(len(key_querys)):
     mng_dict = {}
     start1 = time.time()
@@ -131,14 +132,15 @@ for i in range(len(key_querys)):
                 f_nrsc = fc_complex_filter(ntis_rsc, rsc, f_nrsc)
                 
         elif site[i] == 'DBPIA':
-            mng_check = key_query['mngId']
-            if mng_check not in dbpia_mng_ids:
-                dbpia_mng_ids.append(key_query['mngId'])
-                dbpia_paper_year.append(key_query['issue_year'][:4])
-                dbpia_paper_journal.append(key_query['journal'])
-                dbpia_paper_lang.append(key_query['issue_lang'])
-                dbpia_mng_name.append(key_query['author'].split(';')[-2])
-                dbpia_paper.append(key_query['_id'])
+            mng_id = key_query['mngId']
+            if mng_id not in dbpia_mng_ids:
+                #dbpia_mng_ids.append(key_query['mngId'])
+                dbpia_paper_year = key_query['issue_year'][:4]
+                dbpia_paper_journal = key_query['journal']
+                dbpia_paper_lang = key_query['issue_lang']
+                dbpia_paper = key_query['_id']
+                dbpia_mng_ids[mng_id] = {'year': dbpia_paper_year, 'journal': dbpia_paper_journal, 'lang': dbpia_paper_lang, 'paper' : dbpia_paper}
+                end1 += time.time()   
                 
         else:
             if key_query['author_inst'] not in "":
@@ -161,21 +163,20 @@ for i in range(len(key_querys)):
                 f_plang = fc_simple_filter(paper_lang, f_plang)
                 
     if site[i] == 'DBPIA':
-        dbpia_aut_query = dbpia_aut.find({ '_id' : {'$in' : dbpia_mng_ids}})
-        dbpia_dcount = dbpia_aut.count_documents({ '_id' : {'$in' : dbpia_mng_ids}})
-        
-        for j in range(dbpia_dcount):
-            hasInst = dbpia_aut_query[j]['hasInst']
+        dbpia_aut_query = dbpia_aut.find({ '_id' : {'$in' : list(dbpia_mng_ids.keys())}})
+
+        for aut_query_one in dbpia_aut_query:
+            hasInst = aut_query_one['hasInst']
             if hasInst == False:
                 continue
-            paper_year =  dbpia_paper_year[j]
-            paper_journal = dbpia_paper_journal[j]
-            exi_inst = dbpia_aut_query[j]['inst']
-            ori_inst = dbpia_aut_query[j]['originalName']
-            paper_lang = dbpia_paper_lang[j]
-            mng_name = dbpia_mng_name[j]
-            mng_id = dbpia_mng_ids[j]
-            paper = dbpia_paper[j]
+            paper_year =  dbpia_mng_ids[aut_query_one['_id']]['year']
+            paper_journal = dbpia_mng_ids[aut_query_one['_id']]['journal']
+            exi_inst = aut_query_one['inst']
+            ori_inst = aut_query_one['originalName']
+            paper_lang = dbpia_mng_ids[aut_query_one['_id']]['lang']
+            mng_name = aut_query_one['name']
+            mng_id = aut_query_one['_id']
+            paper = dbpia_mng_ids[aut_query_one['_id']]['paper']
             
             if simple_filter(paper_year, pyear) and simple_filter(paper_journal, pjournal) and simple_filter(ori_inst, pinst) and simple_filter(paper_lang, plang):
                 if mng_id not in mng_dict:
@@ -185,10 +186,12 @@ for i in range(len(key_querys)):
                 f_pinst = fc_simple_filter(ori_inst.replace(".", "^"), f_pinst)
                 f_pjournal = fc_simple_filter(paper_journal.replace(".", "^"), f_pjournal)
                 f_plang = fc_simple_filter(paper_lang, f_plang)
-                
-    end1 = time.time()
-    print(site[i], end1-start1)
-    savetime1 += end1-start1
+    
+    end2 = time.time()
+    db_time = end2-start1
+    # print(f'mngid 수집: {end1}')
+    print(f'DB 수집: {site[i]}, {db_time}')
+    savetime1 += end2-start1
 
     for mng_one in mng_dict :
         oriinst = mng_dict[mng_one]['oriInst']
@@ -197,14 +200,14 @@ for i in range(len(key_querys)):
         paper = mng_dict[mng_one]['papers']
 
         Answer = {'fid': f_id, 'keyId': keyid, 'name' : mng_name , 'inst': oriinst, site[i] : {'inst' :exiinst, 'A_id': [mng_one], 'papers' : paper, 'oriInst' : oriinst} }
-        
+
         if mng_name not in Answer_dict and mng_name+'_0' not in Answer_dict : #동명이인이 없을 때
             Answer_dict[mng_name] = Answer
         else :
             count = 0
             flag = True
             while flag :
-                temp = None 
+                temp = None
                 tempName = mng_name
                 
                 if tempName in Answer_dict : # 이름 으로만 key가ㅣ 존재         
@@ -264,8 +267,8 @@ for i in range(len(key_querys)):
                                 break
 
                 count += 1
-    end2 = time.time()
-    savetime2 += end2-end1
+    end3 = time.time()
+    savetime2 += end3-end2
 
 filter_dict= {'keyId': keyid, 'fId': f_id, 'paper': { 
                 'year': {'list': f_pyear, 'k': 'year', 'v': '연도' },
@@ -283,3 +286,173 @@ filter_dict= {'keyId': keyid, 'fId': f_id, 'paper': {
 # filters_category.insert_one(filter_dict)
 # print(savetime1, savetime2)
 # print(sorted(Answer_dict.items()))
+
+def filter(site, rawdata):
+    if site == 'NTIS' :
+        coauthor = rawdata['rsc'].split(";")
+        year = int(rawdata['prdStart'][:4])
+        keyword = rawdata['koKeyword'].split(",")
+        journal = ""
+        conference = ""
+        title = ""
+
+    else :
+        coauthor = rawdata['author'].split(";")[1:-1]
+        year = int(rawdata['issue_year'][:4])
+        paper_keyword = rawdata['paper_keyword']
+        
+        if paper_keyword == [] or paper_keyword is None:
+            keyword = []
+        elif len(paper_keyword) > 1:
+            for i in range(0, len(paper_keyword)):
+                keyword = []
+                keyword.append(paper_keyword[i].replace(" ", "").split("."))            
+        else:
+            keyword = paper_keyword.replace(" ", "").split(".")
+
+        journal = rawdata['journal']
+        conference = rawdata['issue_inst']
+        title = rawdata['title']
+
+    return coauthor, year, keyword, journal, conference, title
+
+def Secondary_filter(name, site1, inst1, raw_one1, site2, inst2, raw_one2):
+    inst = 0
+    weight = 0
+    joc = 0
+    coauthor1, year1, keyword1, journal1, conference1, title1 = filter(site1, raw_one1)
+    coauthor2, year2, keyword2, journal2, conference2, title2 = filter(site2, raw_one2)
+
+    if inst1 == inst2:
+        inst = 1
+    else:
+        inst = jaro.jaro_winkler_metric(inst1, inst2)
+
+    if name in coauthor1:
+        coauthor1.remove(name)
+
+    if name in coauthor2:
+        coauthor2.remove(name)
+    
+    co_author_count = len([i for i in coauthor1 if i in coauthor2])
+
+    if site1 != 'NTIS' and site2 != 'NTIS' :
+        if title1 == title2 or inst >= 0.8: #or mng1 == mng2:
+            weight = 4
+            return weight
+
+        else:
+            joc = 1 if journal1 == journal2 and conference1 == conference2 else 0
+    else:
+        if inst >= 0.8:
+            weight = 3
+            return weight
+            
+    yop = -(2*(abs(year1-year2)/10)-1)
+            
+    if len(coauthor1) == 0 or len(coauthor2) == 0:
+        co_author_ratio = 0
+    elif len(coauthor1) < len(coauthor2):
+        co_author_ratio = co_author_count/len(coauthor1)
+    else:
+        co_author_ratio = co_author_count/len(coauthor2)
+    
+    if co_author_ratio == 1:
+        co_authorship = 1
+    else:
+        co_authorship = (1 - np.exp(-co_author_count))/2 + (co_author_ratio/2)
+    keyword = 1 - np.exp(-len([i for i in keyword1 if i in keyword2]))
+
+    #print(f'joc: {joc} | yop: {yop} | co_authorship: {co_authorship} | keyword: {keyword}')
+
+    weight = joc + yop + co_authorship + keyword
+
+    return weight
+
+    
+raw_dbs = {'NTIS' : ntis_raw, 'SCIENCEON' : scion_raw, 'KCI' : kci_raw, 'DBPIA': dbpia_raw}
+savetime1 = 0
+savetime2 = 0
+def getRaw(name):
+    if 'raws' not in Answer_dict[name]:
+        raws = []
+        for site_one in site:
+            if site_one in Answer_dict[name]:
+                for c in raw_dbs[site_one].find({"_id": {"$in": Answer_dict[name][site_one]['papers']}}):
+                    c['site'] = site_one
+                    raws.append(c)
+        
+        Answer_dict[name]['raws'] = raws
+
+processedList = []
+deleteList = []
+
+for Answer_one in Answer_dict :
+
+    if '_' in Answer_one :
+        start1 = time.time()
+        name = Answer_one.split("_")
+        if name[0] in processedList :
+            continue
+        preprocessedList = []
+        c = 0
+        while True :
+            pname = name[0]+"_"+str(c)
+            if pname in Answer_dict :            
+                preprocessedList.append(pname)
+                getRaw(pname)
+                c += 1
+            else :
+                break
+        end1 = time.time()
+        savetime1 += end1 - start1
+        processedList.append(name[0])
+        flag = True
+        while flag :
+            flag = False
+            pairs =list(itertools.combinations(preprocessedList, 2))
+            
+            for pair in pairs:
+                pair = list(pair)
+
+                raws1 = Answer_dict[pair[0]]['raws']
+                raws2 = Answer_dict[pair[1]]['raws']
+                
+                for ra1, ra2 in zip(raws1, raws2):
+                    site1 = ra1['site']
+                    site2 = ra2['site']
+                    inst1 = Answer_dict[pair[0]][site1]['oriInst']
+                    inst2 = Answer_dict[pair[1]][site2]['oriInst']
+
+                    if Secondary_filter(name[0], site1, inst1, ra1, site2, inst2, ra2) >= 3:
+                        deleteList.append(pair[1])
+                        for site_one in site:
+                            if site_one in Answer_dict[pair[1]]:
+                                if site_one in Answer_dict[pair[0]].keys() :                            
+                                    Answer_dict[pair[0]][site_one]['A_id'].extend(Answer_dict[pair[1]][site_one]['A_id'])
+                                    Answer_dict[pair[0]][site_one]['papers'].extend(Answer_dict[pair[1]][site_one]['papers'])
+                                    Answer_dict[pair[0]]['raws'].extend(Answer_dict[pair[1]]['raws'])
+                                    
+                                    Answer_dict[pair[0]][site_one]['A_id'] = list(set(Answer_dict[pair[0]][site_one]['A_id']))
+                                    Answer_dict[pair[0]][site_one]['papers'] = list(set(Answer_dict[pair[0]][site_one]['papers']))
+                                else:
+                                    Answer_dict[pair[0]][site_one] = Answer_dict[pair[1]][site_one]
+   
+                        flag = True
+                        preprocessedList.remove(pair[1])
+                        break
+                if flag :
+                    break
+                
+for d in deleteList:
+    del Answer_dict[d]
+
+for d in Answer_dict : 
+    if 'raws' in Answer_dict[d] :
+        del Answer_dict[d]['raws']
+        
+id_domestic.insert_many(Answer_dict.values()) #mongodb 추가
+print("Integration OK", time.time() - start1)
+ 
+analyzer = multicpu.run_factor_integration(keyid, f_id)
+analyzer.run()
