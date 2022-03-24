@@ -85,8 +85,6 @@ f_pinst = {}
 f_pjournal = {}
 f_plang = {}
 
-Inte_name = []
-
 def simple_filter(value, filters) :
     if value in filters or filters == []:
         return True
@@ -256,7 +254,6 @@ for i in range(len(key_querys)):
                         else :# 사이트가 다를때 
                             if temp[key]['inst'] == exiinst  or (src != "" and src in tgt):  # 소속 같을때
                                 Answer_dict[tempName][site[i]] =  {'inst' : exiinst, 'A_id': [mng_one], 'papers' : paper, 'oriInst' : oriinst}
-                                Inte_name.append(tempName)
                                 if '대학교' in Answer_dict[tempName][site[i]]['oriInst'] and '대학교' not in Answer_dict[tempName]['inst']:
                                     Answer_dict[tempName]['inst'] = Answer_dict[tempName][site[i]]['oriInst']
                                     print(tempName, Answer_dict[tempName])
@@ -373,6 +370,7 @@ def Secondary_filter(name, site1, inst1, raw_one1, site2, inst2, raw_one2):
 
     return weight
 
+    
 raw_dbs = {'NTIS' : ntis_raw, 'SCIENCEON' : scion_raw, 'KCI' : kci_raw, 'DBPIA': dbpia_raw}
 savetime1 = 0
 savetime2 = 0
@@ -428,7 +426,6 @@ for Answer_one in Answer_dict :
                     inst2 = Answer_dict[pair[1]][site2]['oriInst']
 
                     if Secondary_filter(name[0], site1, inst1, ra1, site2, inst2, ra2) >= 3:
-                        Inte_name.append(pair[0])
                         deleteList.append(pair[1])
                         for site_one in site:
                             if site_one in Answer_dict[pair[1]]:
@@ -454,39 +451,7 @@ for d in deleteList:
 for d in Answer_dict : 
     if 'raws' in Answer_dict[d] :
         del Answer_dict[d]['raws']
-        
-paper_site = ['KCI', 'SCIENCEON', 'DBPIA']
 
-for check_name in set(Inte_name): #통합저자
-    paper_check = {} #paper_id : title : co_author
-    del_paper = [] #del paper list
-    if check_name in Answer_dict.keys():
-        for site_one in paper_site:
-            if site_one in Answer_dict[check_name]:
-                for raw_one in raw_dbs[site_one].find({"_id": {"$in": Answer_dict[check_name][site_one]['papers']}}):
-                    if raw_one['title'] not in paper_check.keys(): #중복 title이 아니면
-                        
-                        for key_check in paper_check: #paper_chck에 있는 title과 유사도 비교
-                            paper_sim = jaro.jaro_winkler_metric(key_check, raw_one['title'])
-                            
-                            if paper_sim >= 0.8: #유사도가 80% 이상이면
-                                if paper_check[key_check]['co_author'] == raw_one['author'].split(';')[:-1]: #공동저자 비교
-                                    if raw_one['_id'] in Answer_dict[check_name][site_one]['papers']:
-                                        del_paper.append({raw_one['_id'] : raw_one['title']})
-                                        # print(f'del_1: {del_paper}')
-                                        Answer_dict[check_name][site_one]['papers'].remove(raw_one['_id'])
-                                        break
-
-                        paper_check[raw_one['title']] = {'paper_id' : raw_one['_id'], 'co_author' : raw_one['author'].split(';')[:-1]}
-                        
-                    else: #중복 title이면
-                        del_paper.append({raw_one['_id'] : raw_one['title']})
-                        # print(f'del_2: {del_paper}')
-                        Answer_dict[check_name][site_one]['papers'].remove(raw_one['_id'])
-                        
-                if Answer_dict[check_name][site_one]['papers'] == []: #site에 papers가 비어있으면 site 삭제
-                    del Answer_dict[check_name][site_one]
-        
 id_domestic.insert_many(Answer_dict.values()) #mongodb 추가
 print("Integration OK", time.time() - start1)
  
