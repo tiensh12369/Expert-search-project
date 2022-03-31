@@ -10,10 +10,7 @@ client = MongoClient('mongodb://203.255.92.141:27017', authSource='admin')
 filter_info = client['PUBLIC']['FilterInfo'] #필터접근
 filters_category = client['PUBLIC']['FilterCategory']
 
-# f_id = 0 #input
-# keyid = 729 #keyid
-
-f_id = int(sys.argv[1]) #input
+f_id = int(sys.argv[1]) #filter_id
 keyid = int(sys.argv[2])  #keyid
 
 fid_key_query = filter_info.find_one({ '$and': [{ 'fId': f_id }, { 'keyId': keyid }]}) #f_id serach
