@@ -56,7 +56,6 @@ mng_id = [] # Author id
 paper = []
 
 Answer_dict = {} # Answer result
-fp_dict = {} #filter papaer result
 site = ['SCIENCEON', 'NTIS', 'KCI', 'DBPIA']
 fund = [0, 50000000, 100000000, 300000000, 500000000, 1000000000, 10000000000000 ]
 rsc = [0, 10, 30, 50, 100, 100000]
@@ -143,7 +142,7 @@ for i in range(len(key_querys)):
                 dbpia_paper_lang = key_query['issue_lang']
                 dbpia_paper = key_query['_id']
                 dbpia_mng_ids[mng_id] = {'year': dbpia_paper_year, 'journal': dbpia_paper_journal, 'lang': dbpia_paper_lang, 'paper' : dbpia_paper}
-
+                end1 += time.time()   
                 
         else:
             if key_query['author_inst'] not in "":
@@ -160,7 +159,10 @@ for i in range(len(key_querys)):
                 if mng_id not in mng_dict:
                     mng_dict[mng_id] = {'name' : mng_name, 'inst' : exi_inst, 'papers' : [], 'oriInst' : ori_inst}
                 mng_dict[mng_id]['papers'].append(paper)
-                fp_dict[paper] = {'year' : paper_year, 'inst' : ori_inst, 'journal' : paper_journal, 'lang' : paper_lang}
+                f_pyear = fc_simple_filter(paper_year, f_pyear)
+                f_pinst = fc_simple_filter(ori_inst.replace(".", "^"), f_pinst)
+                f_pjournal = fc_simple_filter(paper_journal.replace(".", "^"), f_pjournal)
+                f_plang = fc_simple_filter(paper_lang, f_plang)
                 
     if site[i] == 'DBPIA':
         dbpia_aut_query = dbpia_aut.find({ '_id' : {'$in' : list(dbpia_mng_ids.keys())}})
@@ -182,12 +184,15 @@ for i in range(len(key_querys)):
                 if mng_id not in mng_dict:
                     mng_dict[mng_id] = {'name' : mng_name, 'inst' : exi_inst, 'papers' : [], 'oriInst' : ori_inst}
                 mng_dict[mng_id]['papers'].append(paper)
-                fp_dict[paper] = {'year' : paper_year, 'inst' : ori_inst, 'journal' : paper_journal, 'lang' : paper_lang}
+                f_pyear = fc_simple_filter(paper_year, f_pyear)
+                f_pinst = fc_simple_filter(ori_inst.replace(".", "^"), f_pinst)
+                f_pjournal = fc_simple_filter(paper_journal.replace(".", "^"), f_pjournal)
+                f_plang = fc_simple_filter(paper_lang, f_plang)
     
     end2 = time.time()
     db_time = end2-start1
     print(f'DB 수집: {site[i]}, {db_time}')
-    savetime1 += db_time
+    savetime1 += end2-start1
 
     for mng_one in mng_dict :
         oriinst = mng_dict[mng_one]['oriInst']
@@ -266,9 +271,23 @@ for i in range(len(key_querys)):
 
                 count += 1
     end3 = time.time()
-    savetime2 = end3-end2+savetime1
-    print(f'2차 통합: {savetime2}')
-    
+    savetime2 += end3-end2
+
+filter_dict= {'keyId': keyid, 'fId': f_id, 'paper': { 
+                'year': {'list': f_pyear, 'k': 'year', 'v': '연도' },
+                'inst': {'k': 'inst', 'list': f_pinst, 'v': '소속', 'f': 'false' },
+                'journal': {'list': f_pjournal, 'k': 'journal', 'v': '저널'},
+                'lang': {'list': f_plang, 'k': 'lang', 'v': '언어' }
+            },
+            'project': {
+                'year': {'list': f_nyear, 'k': 'year', 'v': '연도' },
+                'inst': {'list': f_ninst, 'k': 'inst', 'v': '소속' },
+                'fund': {'k': 'fund', 'v': '과제수주비', 'list': f_nfund },
+                'rsc': {'k': 'rsc', 'v': '참여인원', 'list': f_nrsc }
+            }}
+
+filters_category.insert_one(filter_dict)
+
 def filter(site, rawdata):
     if site == 'NTIS' :
         coauthor = rawdata['rsc'].split(";")
@@ -451,38 +470,16 @@ for check_name in set(Inte_name): #통합저자
                                 if paper_check[key_check]['co_author'] == raw_one['author'].split(';')[:-1]: #공동저자 비교
                                     if raw_one['_id'] in Answer_dict[check_name][site_one]['papers']:
                                         Answer_dict[check_name][site_one]['papers'].remove(raw_one['_id'])
-                                        del fp_dict[raw_one['_id']]
                                         break
 
                         paper_check[raw_one['title']] = {'paper_id' : raw_one['_id'], 'co_author' : raw_one['author'].split(';')[:-1]}
                         
                     else: #중복 title이면
                         Answer_dict[check_name][site_one]['papers'].remove(raw_one['_id'])
-                        del fp_dict[raw_one['_id']]
-                         
+                        
                 if Answer_dict[check_name][site_one]['papers'] == []: #site에 papers가 비어있으면 site 삭제
                     del Answer_dict[check_name][site_one]
-
-for fp in fp_dict:
-    f_pyear = fc_simple_filter(fp_dict[fp]['year'], f_pyear)
-    f_pinst = fc_simple_filter(fp_dict[fp]['inst'].replace(".", "^"), f_pinst)
-    f_pjournal = fc_simple_filter(fp_dict[fp]['journal'].replace(".", "^"), f_pjournal)
-    f_plang = fc_simple_filter(fp_dict[fp]['lang'], f_plang)
-    
-filter_dict= {'keyId': keyid, 'fId': f_id, 'paper': { 
-                'year': {'list': f_pyear, 'k': 'year', 'v': '연도' },
-                'inst': {'k': 'inst', 'list': f_pinst, 'v': '소속', 'f': 'false' },
-                'journal': {'list': f_pjournal, 'k': 'journal', 'v': '저널'},
-                'lang': {'list': f_plang, 'k': 'lang', 'v': '언어' }
-            },
-            'project': {
-                'year': {'list': f_nyear, 'k': 'year', 'v': '연도' },
-                'inst': {'list': f_ninst, 'k': 'inst', 'v': '소속' },
-                'fund': {'k': 'fund', 'v': '과제수주비', 'list': f_nfund },
-                'rsc': {'k': 'rsc', 'v': '참여인원', 'list': f_nrsc }
-            }}
-
-filters_category.insert_one(filter_dict)
+        
 id_domestic.insert_many(Answer_dict.values()) #mongodb 추가
 print("Integration OK", time.time() - start1)
  
