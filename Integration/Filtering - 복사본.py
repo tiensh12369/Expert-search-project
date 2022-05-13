@@ -4,15 +4,14 @@ import numpy as np
 import jaro
 import time
 import sys
-import os
-import multicpu
+# import multicpu
 
 client = MongoClient('mongodb://203.255.92.141:27017', authSource='admin')
 filter_info = client['PUBLIC']['FilterInfo'] #필터접근
 filters_category = client['PUBLIC']['FilterCategory']
 
-f_id = int(sys.argv[1]) #filter_id
-keyid = int(sys.argv[2])  #keyid
+f_id = int(0) #filter_id
+keyid = int(815)  #keyid
 
 fid_key_query = filter_info.find_one({ '$and': [{ 'fId': f_id }, { 'keyId': keyid }]}) #f_id serach
 ninst = []
@@ -268,6 +267,7 @@ for i in range(len(key_querys)):
                 count += 1
     end3 = time.time()
     savetime2 = end3-end2+savetime1
+    print(Answer_dict)
     print(f'2차 통합: {savetime2}')
     
 def filter(site, rawdata):
@@ -482,14 +482,10 @@ filter_dict= {'keyId': keyid, 'fId': f_id, 'paper': {
                 'fund': {'k': 'fund', 'v': '과제수주비', 'list': f_nfund },
                 'rsc': {'k': 'rsc', 'v': '참여인원', 'list': f_nrsc }
             }}
-
-if len(Answer_dict) != 0:
-    filters_category.insert_one(filter_dict)
-    id_domestic.insert_many(Answer_dict.values()) #mongodb 추가
-    analyzer = multicpu.run_factor_integration(keyid, f_id)
-    analyzer.run()
-    print("Integration OK", time.time() - start1)
-else:
-    print("No Data")
-
-# os.system(f'python3 Filtering_en.py 0 {keyid}')
+print(Answer_dict.values())
+filters_category.insert_one(filter_dict)
+id_domestic.insert_many(Answer_dict.values()) #mongodb 추가
+print("Integration OK", time.time() - start1)
+ 
+# analyzer = multicpu.run_factor_integration(keyid, f_id)
+# analyzer.run()
