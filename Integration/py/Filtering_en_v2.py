@@ -35,7 +35,7 @@ wos_key_query = wos_raw.find({ 'keyId' : keyid })
 scopus_key_query = scopus_raw.find({ 'keyId' : keyid })
 
 key_querys = [wos_key_query, scopus_key_query] #Rawdata
-id_international = client['ID']['International'] #Domestic
+id_domestic = client['ID']['Domestic'] #Domestic
 
 mng_id = [] # Author id
 paper = []
@@ -377,7 +377,7 @@ filter_dict= {'keyId': keyid, 'fId': f_id, 'paper': {
             }}
 if len(Answer_dict) != 0:
     filters_category.insert_one(filter_dict)
-    id_international.insert_many(Answer_dict.values()) #mongodb 추가
+    id_domestic.insert_many(Answer_dict.values()) #mongodb 추가
     analyzer = multicpu_220504.run_factor_integration(keyid, f_id)
     analyzer.run()
     print("Integration OK", time.time() - start1)
