@@ -92,7 +92,7 @@ def simple_filter(value, filters) :
     return False
         
 def complex_filter(value, filters, base) :
-    if filters == [] :
+    if filters == []:
         return True
 
     for j in range(len(filters)):
@@ -481,8 +481,6 @@ filter_dict= {'keyId': keyid, 'fId': f_id, 'paper': {
                 'fund': {'k': 'fund', 'v': '과제수주비', 'list': f_nfund },
                 'rsc': {'k': 'rsc', 'v': '참여인원', 'list': f_nrsc }
             }}
-
-filters_category.insert_one(filter_dict)
 
 if len(Answer_dict) != 0:
     filters_category.insert_one(filter_dict)
