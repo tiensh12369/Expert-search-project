@@ -276,7 +276,7 @@ def filter(site, rawdata):
         title = ""
 
     else :
-        coauthor = rawdata['author'].split(";")[1:-1]
+        coauthor = rawdata['author'].split(";")[:-1]
         year = int(rawdata['issue_year'][:4])
         paper_keyword = rawdata['paper_keyword']
         

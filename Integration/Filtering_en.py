@@ -4,7 +4,7 @@ import numpy as np
 import jaro
 import time
 import sys
-import multicpu_220504
+import multicpu_international
 
 client = MongoClient('mongodb://203.255.92.141:27017', authSource='admin')
 filter_info = client['PUBLIC']['FilterInfo'] #필터접근
@@ -173,8 +173,7 @@ savetime2 = end3-end2+savetime1
 print(f'2차 통합: {savetime2}')
 
 def filter(rawdata):
-    
-    coauthor = rawdata['author'].split(";")[1:-1]
+    coauthor = rawdata['author'].split(";")[:-1]
     year = int(rawdata['issue_year'])
     paper_keyword = rawdata['paper_keyword']
     
@@ -378,7 +377,7 @@ filter_dict= {'keyId': keyid, 'fId': f_id, 'paper': {
 if len(Answer_dict) != 0:
     filters_category.insert_one(filter_dict)
     id_international.insert_many(Answer_dict.values()) #mongodb 추가
-    analyzer = multicpu_220504.run_factor_integration(keyid, f_id)
+    analyzer = multicpu_international.run_factor_integration(keyid, f_id)
     analyzer.run()
     print("Integration OK", time.time() - start1)
 else:
