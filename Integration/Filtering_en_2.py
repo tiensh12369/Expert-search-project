@@ -192,19 +192,14 @@ print(Inte_name)
 print(len(Answer_dict))
 
 def filter(rawdata, site):
-    coauthor = rawdata['author'].split(";")[1:-1]
+    coauthor = rawdata['author'].split(";")[:-1]
     year = int(rawdata['issue_year'])
     paper_keyword = rawdata['paper_keyword']
     
     if paper_keyword == [] or paper_keyword is None:
         keyword = []
-        
-    elif len(paper_keyword) > 1:
-        for i in range(0, len(paper_keyword)):
-            keyword = []
-            keyword.append(paper_keyword[i].replace(" ", "").split("."))
     else:
-        keyword = paper_keyword.replace(" ", "").split(".")
+        keyword = paper_keyword.split(";")
 
     journal = rawdata['journal']
     conference = rawdata['issue_inst']
@@ -361,8 +356,9 @@ for Answer_one in Answer_dict:
                                     Answer_dict[pair[0]][site_one]['papers'] = list(set(Answer_dict[pair[0]][site_one]['papers']))
                                 else:
                                     Answer_dict[pair[0]][site_one] = Answer_dict[pair[1]][site_one]
-                            if Answer_dict[pair[0]]['inst'] == "" or Answer_dict[pair[0]]['inst'] == " ":
-                                Answer_dict[pair[0]]['inst'] = Answer_dict[pair[0]][site_one]['oriInst']
+                                    
+                                if Answer_dict[pair[0]]['inst'] == "" or Answer_dict[pair[0]]['inst'] == " ":
+                                    Answer_dict[pair[0]]['inst'] = Answer_dict[pair[0]][site_one]['oriInst']
                         flag = True
                         preprocessedList.remove(pair[1])
                         break
@@ -429,6 +425,7 @@ for Answer_one in Answer_dict:
                                 Answer_dict[Answer_one][site_one]['papers'] = list(set(Answer_dict[Answer_one][site_one]['papers']))
                             else:
                                 Answer_dict[Answer_one][site_one] = Answer_dict[Answer_two][site_one]
+                                
                             if Answer_dict[Answer_one]['inst'] == "" or Answer_dict[Answer_one]['inst'] == " ":
                                 Answer_dict[Answer_one]['inst'] = Answer_dict[Answer_one][site_one]['oriInst']
                     flag = True
