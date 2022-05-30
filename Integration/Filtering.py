@@ -5,7 +5,7 @@ import jaro
 import time
 import sys
 import os
-import multicpu_220504
+# import multicpu_220504
 
 client = MongoClient('mongodb://203.255.92.141:27017', authSource='admin')
 filter_info = client['PUBLIC']['FilterInfo'] #필터접근
@@ -485,8 +485,8 @@ filter_dict= {'keyId': keyid, 'fId': f_id, 'paper': {
 if len(Answer_dict) != 0:
     filters_category.insert_one(filter_dict)
     id_domestic.insert_many(Answer_dict.values()) #mongodb 추가
-    analyzer = multicpu_220504.run_factor_integration(keyid, f_id)
-    analyzer.run()
+    # analyzer = multicpu_220504.run_factor_integration(keyid, f_id)
+    # analyzer.run()
     print("Integration OK", time.time() - start1)
 else:
     print("No Data")
