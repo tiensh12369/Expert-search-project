@@ -1,0 +1,22 @@
+- 통합 x(yop, keyword)
+answer= Arunachalam, A. R. {'SCOPUS': 'Dr.M.G.R.Educational and Research Institute Department of Cse Chennai India', 'WOS': 'Dr MGR Univ, Dept CSE, Chennai, Tamil Nadu, India'}
+answer= Bajwa, Hassan {'SCOPUS': 'Department of Electrical Engineering University of Bridgeport 221 University Ave Bridgeport CT United States', 'WOS': 'Univ Bridgeport, Dept Elect Engn, Bridgeport, CT 06604 USA'}
+answer= Chung, Yehching {'SCOPUS': 'Department of Computer Science National Tsing Hua University Hsinchu Taiwan', 'WOS': 'Natl Tsing Hua Univ, Dept Comp Sci, Hsinchu 300, Taiwan'}
+answer= Gugulothu, Narsimha {'SCOPUS': 'CSE JNTUHCEJ Kondagattu Karimnagar India', 'WOS': 'JNTUH, Hyderabad, India'}
+answer= Huang, Mao Lin {'SCOPUS': 'School of Computer Software Tianjin University Tianjin China School of Software Faculty of Engineering and IT University of Technology Sydney Sydney Australia', 'WOS': 'Univ Technol Sydney, Fac Engn & IT, Sch Software, Sydney, NSW 2007, Australia'}
+answer= Rodrigues, Joel J.P.C. {'SCOPUS': 'National Institute of Telecommunications (Inatel) Santa Rita do Sapucaí Brazil Instituto de Telecomunicações Lisbon Portugal ITMO University St. Petersburg Russian Federation University of Fortaleza (UNIFOR) Fortaleza Brazil', 'WOS': 'Natl Inst Telecommun Inatel, Santa Rita Do Sapucai, Brazil'}
+answer= Sharma, Sanjiv {'SCOPUS': 'Madhav Institute of Technology and Science MP Gwalior 474005 India', 'WOS': 'MITS Coll, Gwalior, India'}
+answer= Xie, Dong {'SCOPUS': 'College of Electrical and Information Engineering Chongqing University of Science and Technology Chongqing 401331 China', 'WOS': 'Chongqing Univ Sci & Technol, Coll Elect & Informat Engn, Chongqing, Peoples R China'}
+
+- 통합 x(yop, co_author, keyword)
+answer= Dhavachelvan, P. {'SCOPUS': 'Department of Computer Science Pondicherry University Puducherry India', 'WOS': 'Pondicherry Univ, Dept Comp Sci, Pondicherry, India'}
+answer= Kim, Jeong-joon {'SCOPUS': 'Department of Computer Engineering Korea Polytechnic University Gyeonggi-do 237 Sengideahak-ro Siheung-si 15073 South Korea', 'WOS': 'Korea Polytech Univ, Dept Comp Sci & Engn, Shihung, South Korea'}
+
+- 부적절 통합
+answer= Kim, Yong-sung {'SCOPUS': 'Department of Computer Engineering Chonbuk National University 664-14 DuckJin-Dong DuckJin-Gu Jeonju South Korea'}
+answer= Lee, Dong-ho {'SCOPUS': 'Department of Computer Science and Engineering Hanyang University South Korea'}
+answer= Lee, Sungju {'SCOPUS': 'Department of Computer Information Science Korea University Sejong 30019 South Korea'}
+answer= Manju A. {'SCOPUS': 'Department of CSE Saveetha Engineering College Thandalam Chennai India'}
+answer= Park, Seong-taek {'SCOPUS': 'Department of Management Information Systems Chungbuk National University Heungdeok-gu Cheongju-si Chungcheongbuk-do South Korea'}
+answer= Vimala, N. {'SCOPUS': 'Department of Computer Science LRG Government Arts College for Women Tirupur Tamilnadu India'}
+

@@ -1,0 +1,39 @@
+Goadsby, Peter J.|CGRP pathway monoclonal antibodies for cluster headache
+Leonard, John|Variational Filtering with Copula Models for SLAM
+Zhang, Hui|Semantic RGB-D SLAM for Rescue Robot Navigation
+Kuc, Tae-Yong|Automatic Elevator Button Localization Using a Combined Detecting and Tracking Framework for Multi-Story Navigation
+Choset, Howie|Correspondence Matrices are Underrated
+Wang, Zhidong|GR-SLAM: Vision-Based Sensor Fusion SLAM for Ground Robots on Complex Terrain
+Asama, Hajime|Glass Detection Using Polarization Camera and LRF for SLAM in Environment with Glass
+Asama, Hajime|Glass Detection Using Polarization Camera and LRF for SLAM in Environment with Glass
+Asama, Hajime|Stereo camera visual SLAM with hierarchical masking and motion-state classification at outdoor construction sites containing large dynamic objects
+Xie, Lihua|Loosely-Coupled Ultra-wideband-Aided Scale Correction for Monocular Visual Odometry
+Fan, Shaokang|Dense point cloud map construction based on stereo VINS for mobile vehicles
+Goadsby, Peter J|Mechanistic Investigations Support Liver Safety of Ubrogepant
+Xiong, Rong|Efficient two step optimization for large embedded deformation graph based SLAM
+Xiong, Rong|Efficient two step optimization for large embedded deformation graph based SLAM
+Xiong, Rong|GEM: Online Globally Consistent Dense Elevation Mapping for Unstructured Terrain
+Umeda, Kazunori|ICP-based SLAM Using LiDAR Intensity and Near-infrared Data*
+Park, Soon-Yong|PLF-VINS: Real-Time Monocular Visual-Inertial SLAM With Point-Line Fusion and Parallel-Line Fusion
+Ying, Rendong|Navigation system with SLAM-based trajectory topological map and reinforcement learning-based local planner
+McGuire, Philip|Real-World Clinical Outcomes Two Years After Transition to Psychosis in Individuals at Clinical High Risk: Electronic Health Record Cohort Study
+McGuire, Philip|Real-World Clinical Outcomes Two Years After Transition to Psychosis in Individuals at Clinical High Risk: Electronic Health Record Cohort Study
+McGuire, Philip|Real-World Clinical Outcomes Two Years After Transition to Psychosis in Individuals at Clinical High Risk: Electronic Health Record Cohort Study
+McGuire, Philip|T109. TRAVERSING THE TRANSDIAGNOSTIC GAP BETWEEN DEPRESSION, MANIA AND PSYCHOSIS WITH NATURAL LANGUAGE PROCESSING
+McGuire, Philip|T109. TRAVERSING THE TRANSDIAGNOSTIC GAP BETWEEN DEPRESSION, MANIA AND PSYCHOSIS WITH NATURAL LANGUAGE PROCESSING
+McGuire, Philip|Real-world long-term outcomes in individuals at clinical risk for psychosis: The case for extending duration of care
+Banno, Atsuhiko|LiTAMIN: LiDAR-based Tracking And Mapping by Stabilized ICP for Geometry Approximation with Normal Distributions
+Fitch, Robert|Broadcast Your Weaknesses: Cooperative Active Pose-Graph SLAM for Multiple Robots
+Yu, Junzhi|A Novel 3D LiDAR SLAM Based on Directed Geometry Point and Sparse Frame
+Debei, Stefano|Design of a user-friendly control system for planetary rovers with CPS feature
+Obaidat, Mohammad S.|Fast Local Map Construction of Robot Using Semantic Priors
+Agha-mohammadi, Ali-akbar|Range-Aided Pose-Graph-Based SLAM: Applications of Deployable Ranging Beacons for Unknown Environment Exploration
+Chen, Ben M.|A Target Tracking and Positioning Framework for Video Satellites Based on SLAM
+Mueller, Christoph|Clinical factors associated with progression to dementia in people with late-life depression: a cohort study of patients in secondary care
+Folkesson, John|Latent Space Metric Learning For Sidescan Sonar Place Recognition
+Subramoney, Sreenivas|Descriptor Scoring for Feature Selection in Real-Time Visual Slam
+Dammann, Armin|Multipath Assisted Positioning With Transmitter Visibility Information
+Agrawal, Rajneesh|Use of SLAM Technology to Enhance Performance & Accuracy of Bots
+Chen, Weihai|Object SLAM with Dual Quadric Parameterization
+Fu, Mengyin|AGCV-LOAM: Air-Ground Cross-View based LiDAR Odometry and Mapping
+Yang, Zheng|Smartphone-Based Indoor Visual Navigation with Leader-Follower Mode

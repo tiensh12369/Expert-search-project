@@ -1,0 +1,469 @@
+Skarmeta, Antonio F. | Digital Transformation of Agriculture through the Use of an Interoperable Platform
+Skarmeta, Antonio F. | Improving Energy Efficiency of Irrigation Wells by Using an IoT-Based Platform
+Skarmeta, Antonio F. | Digital Transformation of Agriculture through the Use of an Interoperable Platform
+Skarmeta, Antonio F. | Climate-Aware and IoT-Enabled Selection of the Most Suitable Stone Fruit Tree Variety
+Skarmeta, Antonio F. | Digital Transformation of Agriculture through the Use of an Interoperable Platform
+Skarmeta, Antonio F. | Digital transformation of agriculture through the use of an interoperable platform
+Jain, Sanjeev | Adaptive Small Cell position algorithm (ASPA) for green farming using NB-IoT
+Jain, Sanjeev | Automated Plant Leaf Disease Detection and Classification Using Fuzzy Based Function Network
+Carlos Corrales, Juan | A Conceptual Data Model and Its Automatic Implementation for IoT-Based Business Intelligence Applications
+Carlos Corrales, Juan | IoT-Agro: A smart farming system to Colombian coffee farms
+Zualkernan, Imran A. | Using IoT and smart monitoring devices to optimize the efficiency of large-scale distributed solar farms
+Zualkernan, Imran A. | Designing an Edge Layer for Smart Management of Large-Scale and Distributed Solar Farms
+Rodriguez-Gonzalez, Sara | An intelligent Edge-IoT platform for monitoring livestock and crops in a dairy farming scenario
+Rodríguez-González, Sara | An intelligent Edge-IoT platform for monitoring livestock and crops in a dairy farming scenario
+Selvakumaran, S. | Application of Machine Learning and Big Data in Doubly Fed Induction Generator based Stability Analysis of Multi Machine System using Substantial Transformative Optimization Algorithm
+Selvakumaran S. | Application of Machine Learning and Big Data in Doubly Fed Induction Generator based Stability Analysis of Multi Machine System using Substantial Transformative Optimization Algorithm
+Shafiq, Muhammad | Secure Service Provisioning Scheme for Lightweight IoT Devices With a Fair Payment System and an Incentive Mechanism Based on Blockchain
+Shafiq, Muhammad | Secure Service Provisioning Scheme for Lightweight IoT Devices with a Fair Payment System and an Incentive Mechanism Based on Blockchain
+Kong, Jian-Lei | Hybrid Deep Learning Predictor for Smart Agriculture Sensing Based on Empirical Mode Decomposition and Gated Recurrent Unit Group Model
+Kong, Jianlei | Hybrid deep learning predictor for smart agriculture sensing based on empirical mode decomposition and gated recurrent unit group model
+Rovira-Mas, Francisco | From Smart Farming towards Agriculture 5.0: A Review on Crop Data Management
+Rovira-Más, Francisco | From smart farming towards agriculture 5.0: A review on crop data management
+Gilroy, Michael | The Internet of Things enhancing animal welfare and farm operational efficiency
+Gilroy, Michael | The Internet of Things enhancing animal welfare and farm operational efficiency
+Lee, Jae Min | IoT-based adaptive network mechanism for reliable smart farm system
+Lee, Jae-min | IoT-based adaptive network mechanism for reliable smart farm system
+Butt, Talal Ashraf | Safe farming as a service of blockchain-based supply chain management for improved transparency
+Butt, Talal Ashraf | Safe farming as a service of blockchain-based supply chain management for improved transparency
+Yen, Tai-Hsiang | SimTalk: Simulation of IoT Applications
+Yen, Taihsiang | Simtalk: Simulation of iot applications
+Montella, Raffaele | Coastal Marine Data Crowdsourcing Using the Internet of Floating Things: Improving the Results of a Water Quality Model
+Montella, Raffaele | Coastal Marine Data Crowdsourcing Using the Internet of Floating Things: Improving the Results of a Water Quality Model
+Giannoccaro, Nicola Ivan | Development of Sensors-Based Agri-Food Traceability System Remotely Managed by a Software Platform for Optimized Farm Management
+Giannoccaro, Nicola Ivan | Development of sensors-based agri-food traceability system remotely managed by a software platform for optimized farm management
+Chung, Hsin-Cheng | Establishing a Smart Farm-Scale Piggery Wastewater Treatment System with the Internet of Things (IoT) Applications
+Chung, Hsincheng | Establishing a smart farm-scale piggery wastewater treatment system with the internet of things (IoT) applications
+Gao, Zhanyi | Research and development of smart irrigation in China
+Gao, Zhanyi | Research and development of smart irrigation in China
+Mouazen, Abdul M. | Source localization in resource-constrained sensor networks based on deep learning
+Mouazen, Abdul M. | Source localization in resource-constrained sensor networks based on deep learning
+Arora, Sakshi | Recent Developments of the Internet of Things in Agriculture: A Survey
+Arora, Sakshi | Recent Developments of the Internet of Things in Agriculture: A Survey
+Yau, Laihung | Blockchain Technology in Current Agricultural Systems: From Techniques to Applications
+Yau, Laihung | Blockchain Technology in Current Agricultural Systems: From Techniques to Applications
+Hassanein, Aboul Ella | Integrating blockchain and the internet of things in precision agriculture: Analysis, opportunities, and challenges
+Hassanein, Aboul Ella | Integrating blockchain and the internet of things in precision agriculture: Analysis, opportunities, and challenges
+Alam, Muhammad Mahbub | The fog cloud of things: A survey on concepts, architecture, standards, tools, and applications
+Alam, Muhammad Mahbub | The fog cloud of things: A survey on concepts, architecture, standards, tools, and applications
+Sturm, Barbara | Recent Advances in Reducing Food Losses in the Supply Chain of Fresh Agricultural Produce
+Sturm, Barbara | Recent advances in reducing food losses in the supply chain of fresh agricultural produce
+Ahmed, Muqeem | Importance of semantic interoperability in smart agriculture systems
+Ahmed, Muqeem | Importance of semantic interoperability in smart agriculture systems
+He, Yong | A survey on the 5G network and its impact on agriculture: Challenges and opportunities
+He, Yong | Development and application of an intelligent remote management platform for agricultural machinery [农机远程智能管理平台研发及其应用
+Hornbuckle, John | IRRISENS: An IoT Platform Based on Microservices Applied in Commercial-Scale Crops Working in a Multi-Cloud Environment
+Hornbuckle, John | IRRISENS: An IoT Platform Based on Microservices Applied in Commercial-Scale Crops Working in a Multi-Cloud Environment
+Netinant, Paniti | IoT Architecture based on Information Flow Diagram for Vermiculture Smart Farming Kit
+Netinant, Paniti | IoT Architecture based on Information Flow Diagram for Vermiculture Smart Farming Kit
+Vishnubhatla, Arvind | Cellular IOT using nRF9160kit
+Vishnubhatla, Arvind | Cellular IOT using nRF9160kit
+Prieto, Javier | Increasing Profitability and Monitoring Environmental Performance: A Case Study in the Agri-Food Industry through an Edge-IoT Platform
+Prieto, Javier | Increasing profitability and monitoring environmental performance: a case study in the agri-food industry through an edge-iot platform
+Chowdary, Vinay | Machine Learning Applications for Precision Agriculture: A Comprehensive Review
+Chowdary, Vinay | Machine Learning Applications for Precision Agriculture: A Comprehensive Review
+Bagchi, Saurabh | Hybrid Low-Power Wide-Area Mesh Network for IoT Applications
+Bagchi, Saurabh | Hybrid Low-Power Wide-Area Mesh Network for IoT Applications
+Lee, KyuTae | Heuristic and Statistical Prediction Algorithms Survey or Smart Environments
+Lee, Kyutae | Heuristic and Statistical Prediction Algorithms Survey for Smart Environments
+Bartzanas, Thomas | Application of Internet of Things (IoT) for Optimized Greenhouse Environments
+Bartzanas, Thomas | Sensors for structural health monitoring of agricultural structures
+Kadel, Rajan | A Review of Applications and Communication Technologies for Internet of Things (IoT) and Unmanned Aerial Vehicle (UAV) Based Sustainable Smart Farming
+Kadel, Rajan | A review of applications and communication technologies for internet of things (Iot) and unmanned aerial vehicle (uav) based sustainable smart farming
+Lopez, Dylan Josh Domingo | Application of Internet of Things in Smart Farm Watering System
+Lopez, Dylan Josh Domingo | Application of internet of things in smart farm watering system
+Leithardt, Valderi Reis Quietinho | IndoorPlant: A Model for Intelligent Services in Indoor Agriculture Based on Context Histories
+Leithardt, Valderi Reis Quietinho | Indoorplant: A model for intelligent services in indoor agriculture based on context histories
+Al-Turjman, Fadi | Swarm intelligence-based optimal device deployment in heterogeneous Internet of Things networks for wind farm application
+Al-Turjman, Fadi | Swarm intelligence-based optimal device deployment in heterogeneous Internet of Things networks for wind farm application
+Despoudi, Stella | AI applications of data sharing in agriculture 4.0: A framework for role-based data access control
+Despoudi, Stella | AI applications of data sharing in agriculture 4.0: A framework for role-based data access control
+Rajwade, Y. A. | Smart Farm Mechanization for Sustainable Indian Agriculture
+Rajwade Y.A. | Smart farm mechanization for sustainable indian agriculture
+Um, Tai-Won | Energy Conservation for Internet of Things Tracking Applications Using Deep Reinforcement Learning
+Um, Taiwon | Energy conservation for internet of things tracking applications using deep reinforcement learning
+Ko, Han-Jong | Research on Crop Growing Factory: Focusing on Lighting and Environmental Control with Technological Proposal
+Ko, Han-jong | Research on crop growing factory: Focusing on lighting and environmental control with technological proposal
+Sakli, Hedi | A Low-Cost Platform for Environmental Smart Farming Monitoring System Based on IoT and UAVs
+Sakli, Hedi | A low-cost platform for environmental smart farming monitoring system based on iot and uavs
+Adekanbi, Michael Lanre | Optimization and digitization of wind farms using internet of things: A review
+Adekanbi, Michael Lanre | Optimization and digitization of wind farms using internet of things: A review
+Khurram, Muhammad | An Experimental Comparison of IoT-Based and Traditional Irrigation Scheduling on a Flood-Irrigated Subtropical Lemon Farm
+Khurram, Muhammad | An experimental comparison of iot‐based and traditional irrigation scheduling on a flood‐irrigated subtropical lemon farm
+Abdullah, Nor Fadzilah | LoRa Communications as an Enabler for Internet of Drones towards Large-Scale Livestock Monitoring in Rural Farms
+Abdullah, Nor Fadzilah | Lora communications as an enabler for internet of drones towards large-scale livestock monitoring in rural farms
+Irmak, Suat | Scalable Privacy-preserving Geo-distance Evaluation for Precision Agriculture IoT Systems
+Irmak, Suat | Scalable Privacy-preserving Geo-distance Evaluation for Precision Agriculture IoT Systems
+Badarla, Anil | Cross-Layer Protocol for WSN-Assisted IoT Smart Farming Applications Using Nature Inspired Algorithm
+Badarla, Anil | Cross-Layer Protocol for WSN-Assisted IoT Smart Farming Applications Using Nature Inspired Algorithm
+Cho, Gi Hwan | Intellectual Property Theft Protection in IoT Based Precision Agriculture Using SDN
+Cho, Gihwan | Intellectual property theft protection in iot based precision agriculture using sdn
+Sun, Xiaohe | Design and field experiment of precise control and monitoring system for a solid fumigant sterilizer based on IoT
+Sun, Xiaohe | Design and field experiment of precise control and monitoring system for a solid fumigant sterilizer based on IoT
+Tyasi, Thobela Louis | The Data Acquisition and Control System Based on IoT-CAN Bus
+Tyasi, Thobela Louis | The data acquisition and control system based on iot-can bus
+Babot-Gaspa, Daniel | An Internet of Things Platform Based on Microservices and Cloud Paradigms for Livestock
+Babot-Gaspa, Daniel | An internet of things platform based on microservices and cloud paradigms for livestock
+Alberti, Antonio Marcos | APTM: A Model for Pervasive Traceability of Agrochemicals
+Alberti, Antônio Marcos | APTM: A model for pervasive traceability of agrochemicals
+Li, Daoliang | Intelligent fish farm-the future of aquaculture
+Li, Daoliang | Intelligent fish farm—the future of aquaculture
+Shruthi, R. | Soil Nutrient Detection and Recommendation Using IoT and Fuzzy Logic
+Shruthi, R. | Soil Nutrient Detection and Recommendation Using IoT and Fuzzy Logic
+Falcone, Francisco | Analysis of low power wide area network wireless technologies in smart agriculture for large-scale farm monitoring and tractor communications
+Falcone, Francisco | Analysis of low power wide area network wireless technologies in smart agriculture for large-scale farm monitoring and tractor communications
+Liu, Fanglin | Monitoring honeybees (Apis spp.) (Hymenoptera: Apidae) in climate-smart agriculture: A review
+Liu, Fanglin | Monitoring honeybees (Apis spp.) (Hymenoptera: Apidae) in climate-smart agriculture: A review
+Kim, Do-Hyeun | Optimal smart contract for autonomous greenhouse environment based on IoT blockchain network in agriculture
+Kim, Dohyeun | Optimal smart contract for autonomous greenhouse environment based on IoT blockchain network in agriculture
+Hayawi, Kadhim | Trajectory Design for UAV-Based Data Collection Using Clustering Model in Smart Farming
+Hayawi, Kadhim | Trajectory design for uav-based data collection using clustering model in smart farming
+Ranjan, Rajiv | Evaluating Sensor Data Quality in Internet of Things Smart Agriculture Applications
+Ranjan, Rajiv | Evaluating Sensor Data Quality in Internet of Things Smart Agriculture Applications
+Cho, Yongyun | A Machine Learning Based Model for Energy Usage Peak Prediction in Smart Farms
+Cho, Yongyun | A Machine Learning Based Model for Energy Usage Peak Prediction in Smart Farms
+Prabhu, C. S. R. | A novel application framework for resource optimization, service migration, and load balancing in fog computing environment
+Prabhu, C. S.R. | A novel application framework for resource optimization, service migration, and load balancing in fog computing environment
+Boonsong, Wasana | Animal Identification and Performance Analysis Based on RFID- IoT Smart Farming Applications
+Boonsong, Wasana | Animal Identification and Performance Analysis Based on RFIDIoT Smart Farming Applications
+Show, Pau Loke | Smart microalgae farming with internet-of-things for sustainable agriculture
+Show, Pau Loke | Smart microalgae farming with internet-of-things for sustainable agriculture
+Sajjanhar, Atul | A survey on smart farming data, applications and techniques
+Sajjanhar, Atul | A survey on smart farming data, applications and techniques
+Yang, Chul-Ju | Applications of Smart Technology as a Sustainable Strategy in Modern Swine Farming
+Yang, Chulju | Applications of Smart Technology as a Sustainable Strategy in Modern Swine Farming
+Masum, Abdul Kadar Muhammad | Implementation of Internet of Things (IoT)-based Aquaculture System Using Machine Learning Approaches
+Masum, Abdul Kadar Muhammad | Implementation of Internet of Things (IoT)-based Aquaculture System Using Machine Learning Approaches
+Kumar R. | Overview of iot in the agroecosystem
+Kumar R. | Modeling the challenges for agri-food supply chain 4.0: Tism approach
+Greve, Fabiola | Improving Data Security with Blockchain and Internet of Things in the Gourmet Cocoa Bean Fermentation Process
+Greve, Fabíola | Improving Data Security with Blockchain and Internet of Things in the Gourmet Cocoa Bean Fermentation Process
+de By, Rolf A. | Utilization of Internet of Things and Wireless Sensor Networks for Sustainable Smallholder Agriculture
+de By, Rolf A. | Utilization of Internet of Things and Wireless Sensor Networks for Sustainable Smallholder Agriculture
+Li, Ming | Streamlining Traceability Data Generation in Apple Production Using Integral Management with Machine-to-Machine Connections
+Li, Ming | Streamlining Traceability Data Generation in Apple Production Using Integral Management with Machine‐to‐Machine Connections
+Kalafatis, Stavros | A Machine-Learning-Based IoT System for Optimizing Nutrient Supply in Commercial Aquaponic Operations
+Kalafatis, Stavros | A Machine-Learning-Based IoT System for Optimizing Nutrient Supply in Commercial Aquaponic Operations
+Malone, Paul J.|Machine learning based fog computing assisted data-driven approach for early lameness detection in dairy cattle
+Malone, Paul|Machine learning based fog computing assisted data-driven approach for early lameness detection in dairy cattle
+Pearson, Simon|Photovoltaic Agricultural Internet of Things Towards Realizing the Next Generation of Smart Farming
+Paris M.|Planetary Digital Twin: A Case Study in Aquaculture
+Hung Nguyen|Research on a Low-Cost, Open-Source, and Remote Monitoring Data Collector to Predict Livestock's Habits Based on Location and Auditory Information: A Case Study from Vietnam
+Huang, Nenfu|Design and Implementation of Anomaly Condition Detection in Agricultural IoT Platform System
+Ismail, Mahmoud|Internet of Green Things with autonomous wireless wheel robots against green houses and farms
+Ismail, Sohaib|Current Progress and Future Prospects of Agriculture Technology: Gateway to Sustainable Agriculture
+Ahmed, Muqeem|Importance of semantic interoperability in smart agriculture systems
+Ahmad, Mumtaz|E-cultivation using the IoT with Adafruit cloud
+Amidy, Martin R.|Data-driven agriculture for rural smallholdings
+Amidy, Martin|Data-driven agriculture for rural smallholdings
+Al Azad, Abul Kalam|IoT based smart weather monitoring system for poultry farm
+Alazab, Mamoun|Blockchain for Industry 4.0: A Comprehensive Review
+Kumar, V. D. Satish|Internet of Things: A Product Development Cycle for the Entrepreneurs
+Kumar, Nagesh|Internet of things-based hardware and software for smart agriculture: A review
+Alkanhal, Mohamed|Smart Palm: An IoT Framework for Red Palm Weevil Early Detection
+Alkanhal M.|Smart palm: An IoT framework for red palm weevil early detection
+Junnarkar, Aparna Atul|CL-IoT: cross-layer Internet of Things protocol for intelligent manufacturing of smart farming
+Junnarkar, Aparna A.|CL-IoT: cross-layer Internet of Things protocol for intelligent manufacturing of smart farming
+Jovanović, Nebojša Z.|Soil water balance models for determining crop water and irrigation requirements and irrigation scheduling focusing on the FAO56 method and the dual Kc approach
+Jovanovic, N.|Soil water balance models for determining crop water and irrigation requirements and irrigation scheduling focusing on the FAO56 method and the dual K-c approach
+Joshi, Karuna Pande|Ontologies and artificial intelligence systems for the cooperative smart farming ecosystem
+Joshi, Karuna|Ontologies and Artificial Intelligence Systems for the Cooperative Smart Farming Ecosystem
+Liu, Chenchen|Review of Sensor Network-Based Irrigation Systems Using IoT and Remote Sensing
+Liu, Zheng|Printed Sensor Technologies for Monitoring Applications in Smart Farming: A Review
+Singh, Sudhir K.|Applications of Remote Sensing in Precision Agriculture: A Review
+Singh, K. G.|Development of an IoT based weighing type micro-lysimeter for soilless cultivation
+Singh, Sudhir K.|Applications of Remote Sensing in Precision Agriculture: A Review
+Singh, K. G.|Development of an IoT based weighing type micro-lysimeter for soilless cultivation
+Caicedo Rendon, Oscar Mauricio|An Approach Based on Fog Computing for Providing Reliability in IoT Data Collection: A Case Study in a Colombian Coffee Smart Farm
+Caicedo, O.|An approach based on fog computing for providing reliability in iot data collection: A case study in a colombian coffee smart farm
+Ahmad, Ir Khairul Azman|Towards Smart Agriculture Monitoring Using Fuzzy Systems
+Ahmadinia, Ali|Sensor data visualization on google maps using AWS, and IoT Discovery Board
+Nair, Meghna Manoj|Internet of Everything (IoE) and Internet of Things (IoTs): Threat Analyses, Possible Opportunities for Future
+Naz, Ammerha|IoT and AI in Precision Agriculture: Designing Smart System to Support Illiterate Farmers
+Li Xiaofeng|Agricultural labor market equilibrium based on FPGA platform and IoT communication
+Xiaofeng L.|Agricultural labor market equilibrium based on FPGA platform and IoT communication
+Chikhi, Salim|A study of LoRaWAN protocol performance for IoT applications in smart agriculture
+Chikhi, S.|A study of LoRaWAN protocol performance for IoT applications in smart agriculture
+Kumar, Chiranjeev|IoT-Enabled IEEE 802.15.4 WSN Monitoring Infrastructure-Driven Fuzzy-Logic-Based Crop Pest Prediction
+Kumar, Neeraj|Secure Multifactor Authenticated Key Agreement Scheme for Industrial IoT
+Wang, Xiaochan|Internet of Things for the Future of Smart Agriculture: A Comprehensive Survey of Emerging Technologies
+Wang, Tianlei|Smart Farm Based on Six-Domain Model
+Sharmila K P.|LoRa Technology Based Hydroponic Farm Monitoring System
+Shankar, K.|An Optimal Classification Model for Rice Plant Disease Detection
+Ismail, Mahmoud|Internet of Green Things with autonomous wireless wheel robots against green houses and farms
+Ismail, Sohaib|Current Progress and Future Prospects of Agriculture Technology: Gateway to Sustainable Agriculture
+Singh, Harendra|SCBS: A Short Certificate-Based Signature Scheme With Efficient Aggregation for Industrial-Internet-of-Things Environment
+Singh, Sudhir K.|Applications of Remote Sensing in Precision Agriculture: A Review
+Maheshwari, Piyush|IoT-Based Smart Tree Management Solution for Green Cities
+Maheswari, B. Uma|Health monitoring and fault prediction using a lightweight deep convolutional neural network optimized by Levy flight optimization algorithm
+Miao, Shen-Yun|A LoRa-Based Multisensor IoT Platform for Agriculture Monitoring and Submersible Pump Control in a Water Bamboo Field
+Misha E.|Methodical Analysis of a Fog Computing Assisted Animal-Welfare Software System in a Real-World Smart Dairy Farm IoT Deployment
+Ismail, Mohd Razi|Smartphone Application Development for Rice Field Management Through Aerial Imagery and Normalised Difference Vegetation Index (NDVI) Analysis
+Ismail, Mahmoud|Internet of Green Things with autonomous wireless wheel robots against green houses and farms
+Sundararajan S.|Intelligent Itinerant Robot [IIR] for Agricultural Farm Monitoring using IoT
+Sundar, Ramesh|Cardiac disease diagnosis using feature extraction and machine learning based classification with Internet of Things(IoT)
+Liu, Chenchen|Review of Sensor Network-Based Irrigation Systems Using IoT and Remote Sensing
+Liu, Zheng|Printed Sensor Technologies for Monitoring Applications in Smart Farming: A Review
+Kim, Jonghoek|Light control smart farm monitoring system with reflector control
+Kim, Jai-Hoon|UAV path planning method for avoiding restricted areas
+Carlos Corrales, Juan|A Conceptual Data Model and Its Automatic Implementation for IoT-Based Business Intelligence Applications
+Corrales, Juan Carlos|IoT-Agro: A smart farming system to Colombian coffee farms
+Al-Amri, Jehad F.|Development of IoT Based Fish Monitoring System for Aquaculture
+Ali, Maaruf|Wireless Technology for Autonomous Albanian Farming and Crop Monitoring
+Reddy, P. Ramana|Indoor Tracking by Adding IMU and UWB Using Unscented Kalman Filter
+Reddy, S. Raji N.|Design and development of IoT-based framework for indian aquaculture
+Lopez, Dylan Josh Domingo|Application of Internet of Things in Smart Farm Watering System
+Lopez, Juan Carlos|Collection of Data With Drones in Precision Agriculture: Analytical Model and LoRa Case Study
+Casavola, Alessandro Fiorentino|An internet of things solution for smart agriculture
+Casavola, Alessandro|An Internet of Things Solution for Smart Agriculture
+O'Hare, Gregory M. P.|Automated Zone Identification for Variable-Rate Services in Precision Agriculture
+O’Hare, Gregory M.P.|A farmland-microclimate monitoring system based on the internet of things
+Sangeetha, J.|Smart Irrigation and Precision Farming of Paddy Field using Unmanned Ground Vehicle and Internet of Things System
+Saveetha P.|Precision agriculture using IOT varied sensors: A gateway management system
+Oliveira, Lucas de Araujo|A mesh network case study for digital audio signal processing in Smart Farm
+Oliveira L.D.A.|A mesh network case study for digital audio signal processing in Smart Farm
+Kumar, Chiranjeev|IoT-Enabled IEEE 802.15.4 WSN Monitoring Infrastructure-Driven Fuzzy-Logic-Based Crop Pest Prediction
+Kumar, Neeraj|Secure Multifactor Authenticated Key Agreement Scheme for Industrial IoT
+Jiménez López, Fabián R.|Intelligent IoT-multiagent precision irrigation approach for improving water use efficiency in irrigation systems at farm and district scales
+Jimenez, Fabian|Intelligent IoT-multiagent precision irrigation approach for improving water use efficiency in irrigation systems at farm and district scales
+Dolfsma, Wilfred|A smart web of firms, farms and internet of things (IOT): enabling collaboration-based business models in the agri-food industry
+Dolfsma W.|A smart web of firms, farms and internet of things (IOT): enabling collaboration-based business models in the agri-food industry
+Rahmani, Abdul Wahab|Application of IoT and Cloud Computing in Automation of Agriculture Irrigation
+Rahmawati|Agriculture 4.0 and smart farming: Imperatives of scaling up innovation and farmer capabilities for sustainable business
+Marino, Stefano|Technology and Data Fusion Methods to Enhance Site-Specific Crop Monitoring
+Marino, S.|Technology and Data Fusion Methods to Enhance Site-Specific Crop Monitoring
+Tn, Padmini|AgriWealth: IoT based farming system
+Tan, Ming|Design and Implementation of Intelligent Ear Tag for Dairy Cows in Farms
+On-rit, Surajate|WEB SERVICES PERFORMANCE EVALUATION ON SINGLE BOARD COMPUTERS FOR MOBILE APPLICATIONS AND IoT DEVICES
+On-rit S.|WEB SERVICES PERFORMANCE EVALUATION ON SINGLE BOARD COMPUTERS FOR MOBILE APPLICATIONS AND IoT DEVICES
+Zahran, Mohamed B.|Smart farming for improving agricultural management
+Zahran M.B.|Smart farming for improving agricultural management
+Rodriguez-Gonzalez, Sara|An intelligent Edge-IoT platform for monitoring livestock and crops in a dairy farming scenario
+Rodrigues, Joel J. P. C.|Security in IoT-enabled smart agriculture: architecture, security solutions and challenges
+Carvajal, Rodrigo|LoRa Based IoT Platform for Remote Monitoring of Large-Scale Agriculture Farms in Chile
+Carvajal R.|LoRa Based IoT Platform for Remote Monitoring of Large-Scale Agriculture Farms in Chile
+Bouchekara, Houssem R. E. H.|Livestock Management With Unmanned Aerial Vehicles: A Review
+Bouchekara, Houssem|Livestock Management with Unmanned Aerial Vehicles: A Review
+Dezuanni, Michael L.|Critical factors of digital AgTech adoption on Australian farms: from digital to data divide
+Dezuanni, Michael|Critical factors of digital AgTech adoption on Australian farms: from digital to data divide
+Sunitha, C. Adline|Chaotic and Paillier secure image data sharing based on blockchain and cloud security
+Sunitha C.A.|Chaotic and Paillier secure image data sharing based on blockchain and cloud security
+Martynenko, Alex|IoT, Big Data, and Artificial Intelligence in Agriculture and Food Industry
+Martynenko, A.|IoT, Big Data, and Artificial Intelligence in Agriculture and Food Industry
+Reddy, P. Ramana|Indoor Tracking by Adding IMU and UWB Using Unscented Kalman Filter
+Reddy, S. Raji N.|Design and development of IoT-based framework for indian aquaculture
+Rodriguez-Gonzalez, Sara|An intelligent Edge-IoT platform for monitoring livestock and crops in a dairy farming scenario
+Rodrigues, Joel J. P. C.|Security in IoT-enabled smart agriculture: architecture, security solutions and challenges
+Kumar, V. D. Satish|Internet of Things: A Product Development Cycle for the Entrepreneurs
+Kumar, Nagesh|Internet of things-based hardware and software for smart agriculture: A review
+Selvakumaran, S.|Application of Machine Learning and Big Data in Doubly Fed Induction Generator based Stability Analysis of Multi Machine System using Substantial Transformative Optimization Algorithm
+Selva Kumar, Selva|Internet of things enabled smart animal farm prototype
+Sangeetha, J.|Smart Irrigation and Precision Farming of Paddy Field using Unmanned Ground Vehicle and Internet of Things System
+Saveetha P.|Precision agriculture using IOT varied sensors: A gateway management system
+Kong, Jian-Lei|Hybrid Deep Learning Predictor for Smart Agriculture Sensing Based on Empirical Mode Decomposition and Gated Recurrent Unit Group Model
+Ko, Han-Jong|Research on Crop Growing Factory: Focusing on Lighting and Environmental Control with Technological Proposal
+Kong, Jian-Lei|Hybrid deep learning predictor for smart agriculture sensing based on empirical mode decomposition and gated recurrent unit group model
+Ko, Han-Jong|Research on crop growing factory: Focusing on lighting and environmental control with technological proposal
+Alam, Muhammad Mahbub|The fog cloud of things: A survey on concepts, architecture, standards, tools, and applications
+Alam, Mohammed Shamsul|A low-cost ideal fish farm using IoT: In the context of Bangladesh aquaculture system
+Maw, Myo Myint|Development of soil moisture monitoring by using IoT and UAV-SC for smart farming application
+Ma, Wei|Smart Farming: An Overview
+Alberti, Antonio Marcos|APTM: A Model for Pervasive Traceability of Agrochemicals
+Albert Rabara, S.|Secured architecture for internet of things (Iot) enabled smart agriculture
+Lee, Jae Min|IoT-based adaptive network mechanism for reliable smart farm system
+Lee, Minsun|Design of Solar Panels Efficiency Monitoring System
+Malone, Paul J.|Machine learning based fog computing assisted data-driven approach for early lameness detection in dairy cattle
+Malone, Paul|Machine learning based fog computing assisted data-driven approach for early lameness detection in dairy cattle
+Huang, Haoran|Design of Wine Grape Mobile Terminal Scheduling Platform Architecture Based on IOT
+Huang, Nenfu|Design and Implementation of Anomaly Condition Detection in Agricultural IoT Platform System
+Sri Bhargav Sai, G.|Smart agricult ure and home automation using google assistance
+Srivastava K.|Farming automation
+Sugundan, Narayanasamy|Technological implication and its impact in agricultural sector: An IoT Based Collaboration framework
+Sundararajan S.|Intelligent Itinerant Robot [IIR] for Agricultural Farm Monitoring using IoT
+Jovanović, Nebojša Z.|Soil water balance models for determining crop water and irrigation requirements and irrigation scheduling focusing on the FAO56 method and the dual Kc approach
+Jovanovic, N.|Soil water balance models for determining crop water and irrigation requirements and irrigation scheduling focusing on the FAO56 method and the dual K-c approach
+Nair, Meghna Manoj|Internet of Everything (IoE) and Internet of Things (IoTs): Threat Analyses, Possible Opportunities for Future
+Naz, Ammerha|IoT and AI in Precision Agriculture: Designing Smart System to Support Illiterate Farmers
+Amidy, Martin R.|Data-driven agriculture for rural smallholdings
+Amidy, Martin|Data-driven agriculture for rural smallholdings
+Alkanhal, Mohamed|Smart Palm: An IoT Framework for Red Palm Weevil Early Detection
+Alkanhal M.|Smart palm: An IoT framework for red palm weevil early detection
+Junnarkar, Aparna Atul|CL-IoT: cross-layer Internet of Things protocol for intelligent manufacturing of smart farming
+Junnarkar, Aparna A.|CL-IoT: cross-layer Internet of Things protocol for intelligent manufacturing of smart farming
+Maw, Myo Myint|Development of soil moisture monitoring by using IoT and UAV-SC for smart farming application
+Ma, Wei|Smart Farming: An Overview
+Alam, Muhammad Mahbub|The fog cloud of things: A survey on concepts, architecture, standards, tools, and applications
+Alam, Mohammed Shamsul|A low-cost ideal fish farm using IoT: In the context of Bangladesh aquaculture system
+Chikhi, Salim|A study of LoRaWAN protocol performance for IoT applications in smart agriculture
+Chikhi, S.|A study of LoRaWAN protocol performance for IoT applications in smart agriculture
+Li Xiaofeng|Agricultural labor market equilibrium based on FPGA platform and IoT communication
+Xiaofeng L.|Agricultural labor market equilibrium based on FPGA platform and IoT communication
+Tn, Padmini|AgriWealth: IoT based farming system
+Tan, Ming|Design and Implementation of Intelligent Ear Tag for Dairy Cows in Farms
+Joshi, Karuna Pande|Ontologies and artificial intelligence systems for the cooperative smart farming ecosystem
+Joshi, Karuna|Ontologies and Artificial Intelligence Systems for the Cooperative Smart Farming Ecosystem
+Ahmed, Muqeem|Importance of semantic interoperability in smart agriculture systems
+Ahmad, Mumtaz|E-cultivation using the IoT with Adafruit cloud
+Kim, Dongkyun|LSTM Enabled Artificial Intelligent Smart Gardening System
+Kim, Jonghoek|Light control smart farm monitoring system with reflector control
+Caicedo Rendon, Oscar Mauricio|An Approach Based on Fog Computing for Providing Reliability in IoT Data Collection: A Case Study in a Colombian Coffee Smart Farm
+Caicedo, O.|An approach based on fog computing for providing reliability in iot data collection: A case study in a colombian coffee smart farm
+Kim, Jonghoek|Light control smart farm monitoring system with reflector control
+Kim, Jai-Hoon|UAV path planning method for avoiding restricted areas
+Soundhaaryha B.S.|Survey on IoT based E-Farming Technology Enabled Farming
+Saranya S.|A Study of Smart Farming Based on IOT
+Vishnubhatla, Arvind|Cellular IOT using nRF9160kit
+Vishal C.|Livestock Management Application through Internet of Things
+Lee, Jae Min|IoT-based adaptive network mechanism for reliable smart farm system
+Lee, Minsun|Design of Solar Panels Efficiency Monitoring System
+Chowdary, Vinay|Machine Learning Applications for Precision Agriculture: A Comprehensive Review
+Cho, Gi Hwan|Intellectual Property Theft Protection in IoT Based Precision Agriculture Using SDN
+Chowdary, Vinay|Machine Learning Applications for Precision Agriculture: A Comprehensive Review
+Cho, Gi Hwan|Intellectual property theft protection in iot based precision agriculture using sdn
+Lee, KyuTae|Heuristic and Statistical Prediction Algorithms Survey or Smart Environments
+Lee, Jae Min|IoT-based adaptive network mechanism for reliable smart farm system
+Lee, KyuTae|Heuristic and Statistical Prediction Algorithms Survey for Smart Environments
+Lee, Jae Min|IoT-based adaptive network mechanism for reliable smart farm system
+Bartzanas, Thomas|Application of Internet of Things (IoT) for Optimized Greenhouse Environments
+Bartzanas, Thomas|Sensors for structural health monitoring of agricultural structures
+Bartzanas, Thomas|Application of Internet of Things (IoT) for Optimized Greenhouse Environments
+Bartzanas, Thomas|Sensors for structural health monitoring of agricultural structures
+Al-Amri, Jehad F.|Development of IoT Based Fish Monitoring System for Aquaculture
+Ali, Maaruf|Wireless Technology for Autonomous Albanian Farming and Crop Monitoring
+Singh, Sudhir K.|Applications of Remote Sensing in Precision Agriculture: A Review
+Singh H.|SCBS: A Short Certificate-Based Signature Scheme with Efficient Aggregation for Industrial-Internet-of-Things Environment
+Ahmad, Ir Khairul Azman|Towards Smart Agriculture Monitoring Using Fuzzy Systems
+Ahmadinia, Ali|Sensor data visualization on google maps using AWS, and IoT Discovery Board
+Al Azad, Abul Kalam|IoT based smart weather monitoring system for poultry farm
+Alazab, Mamoun|Blockchain for Industry 4.0: A Comprehensive Review
+Lopez, Dylan Josh Domingo|Application of Internet of Things in Smart Farm Watering System
+Lopez, Juan Carlos|Collection of Data With Drones in Precision Agriculture: Analytical Model and LoRa Case Study
+Sharma, Manish|Smart Agriculture Using IoD: Insights, Trends and Road Ahead
+Sharmila K P.|LoRa Technology Based Hydroponic Farm Monitoring System
+Kong, Jian-Lei|Hybrid Deep Learning Predictor for Smart Agriculture Sensing Based on Empirical Mode Decomposition and Gated Recurrent Unit Group Model
+Ko, Han-Jong|Research on Crop Growing Factory: Focusing on Lighting and Environmental Control with Technological Proposal
+Kong, Jian-Lei|Hybrid deep learning predictor for smart agriculture sensing based on empirical mode decomposition and gated recurrent unit group model
+Ko, Han-Jong|Research on crop growing factory: Focusing on lighting and environmental control with technological proposal
+Huang, Haoran|Design of Wine Grape Mobile Terminal Scheduling Platform Architecture Based on IOT
+Huang, Nenfu|Design and Implementation of Anomaly Condition Detection in Agricultural IoT Platform System
+Singh, Amandeep|Smart Farming: Application of Internet of Things (IoT) Systems
+Singh, Harendra|SCBS: A Short Certificate-Based Signature Scheme With Efficient Aggregation for Industrial-Internet-of-Things Environment
+Babot-Gaspa, Daniel|An Internet of Things Platform Based on Microservices and Cloud Paradigms for Livestock
+Badarla, Anil|Cross-Layer Protocol for WSN-Assisted IoT Smart Farming Applications Using Nature Inspired Algorithm
+Babot-Gaspa, Daniel|An internet of things platform based on microservices and cloud paradigms for livestock
+Badarla, Anil|Cross-Layer Protocol for WSN-Assisted IoT Smart Farming Applications Using Nature Inspired Algorithm
+Wang, Xiaochan|Internet of Things for the Future of Smart Agriculture: A Comprehensive Survey of Emerging Technologies
+Wang, Tianlei|Smart Farm Based on Six-Domain Model
+Chowdary, Vinay|Machine Learning Applications for Precision Agriculture: A Comprehensive Review
+Cho, Gi Hwan|Intellectual Property Theft Protection in IoT Based Precision Agriculture Using SDN
+Chowdary, Vinay|Machine Learning Applications for Precision Agriculture: A Comprehensive Review
+Cho, Gi Hwan|Intellectual property theft protection in iot based precision agriculture using sdn
+Rahmani, Abdul Wahab|Application of IoT and Cloud Computing in Automation of Agriculture Irrigation
+Rahmawati|Agriculture 4.0 and smart farming: Imperatives of scaling up innovation and farmer capabilities for sustainable business
+Babot-Gaspa, Daniel|An Internet of Things Platform Based on Microservices and Cloud Paradigms for Livestock
+Badarla, Anil|Cross-Layer Protocol for WSN-Assisted IoT Smart Farming Applications Using Nature Inspired Algorithm
+Babot-Gaspa, Daniel|An internet of things platform based on microservices and cloud paradigms for livestock
+Badarla, Anil|Cross-Layer Protocol for WSN-Assisted IoT Smart Farming Applications Using Nature Inspired Algorithm
+Alberti, Antonio Marcos|APTM: A Model for Pervasive Traceability of Agrochemicals
+Albert Rabara, S.|Secured architecture for internet of things (Iot) enabled smart agriculture
+Zahran, Mohamed B.|Smart farming for improving agricultural management
+Zahran M.B.|Smart farming for improving agricultural management
+Li, Daoliang|Intelligent fish farm-the future of aquaculture
+Liu, Fanglin|Monitoring honeybees (Apis spp.) (Hymenoptera: Apidae) in climate-smart agriculture: A review
+Li, Daoliang|Intelligent fish farm—the future of aquaculture
+Liu, Fanglin|Monitoring honeybees (Apis spp.) (Hymenoptera: Apidae) in climate-smart agriculture: A review
+Liu, Chenchen|Review of Sensor Network-Based Irrigation Systems Using IoT and Remote Sensing
+Liu H.|Construction and application exploration of 5T smart farm management systems [5T智慧农场管理系统构建与应用探索
+Carlos Corrales, Juan|A Conceptual Data Model and Its Automatic Implementation for IoT-Based Business Intelligence Applications
+Corrales, Juan Carlos|IoT-Agro: A smart farming system to Colombian coffee farms
+Casavola, Alessandro Fiorentino|An internet of things solution for smart agriculture
+Casavola, Alessandro|An Internet of Things Solution for Smart Agriculture
+Carvajal R.|LoRa Based IoT Platform for Remote Monitoring of Large-Scale Agriculture Farms in Chile
+Agrawal R.|The utilization of IoT and remote sensor organizations and their application in agriculture for the improvement of yield productivity in India
+Liu, Fanglin|Monitoring honeybees (Apis spp.) (Hymenoptera: Apidae) in climate-smart agriculture: A review
+Li, Daoliang|Intelligent fish farm-the future of aquaculture
+Liu, Fanglin|Monitoring honeybees (Apis spp.) (Hymenoptera: Apidae) in climate-smart agriculture: A review
+Li, Daoliang|Intelligent fish farm—the future of aquaculture
+Miao, Shen-Yun|A LoRa-Based Multisensor IoT Platform for Agriculture Monitoring and Submersible Pump Control in a Water Bamboo Field
+Misha E.|Methodical Analysis of a Fog Computing Assisted Animal-Welfare Software System in a Real-World Smart Dairy Farm IoT Deployment
+Kim, Do-Hyeun|Optimal smart contract for autonomous greenhouse environment based on IoT blockchain network in agriculture
+Kim, Dongkyun|LSTM Enabled Artificial Intelligent Smart Gardening System
+Singh, Amandeep|Smart Farming: Application of Internet of Things (IoT) Systems
+Sai, M. Mandeep|Developments in Agriculture Technology Using Internet of Things
+Jiménez López, Fabián R.|Intelligent IoT-multiagent precision irrigation approach for improving water use efficiency in irrigation systems at farm and district scales
+Jimenez, Fabian|Intelligent IoT-multiagent precision irrigation approach for improving water use efficiency in irrigation systems at farm and district scales
+Vishnubhatla, Arvind|Cellular IOT using nRF9160kit
+Vishal C.|Livestock Management Application through Internet of Things
+Oliveira, Lucas de Araujo|A mesh network case study for digital audio signal processing in Smart Farm
+Oliveira L.D.A.|A mesh network case study for digital audio signal processing in Smart Farm
+Chowdary, Vinay|Machine Learning Applications for Precision Agriculture: A Comprehensive Review
+Cho, Yongyun|A Machine Learning Based Model for Energy Usage Peak Prediction in Smart Farms
+Chowdary, Vinay|Machine Learning Applications for Precision Agriculture: A Comprehensive Review
+Cho, Yongyun|A Machine Learning Based Model for Energy Usage Peak Prediction in Smart Farms
+Kumar, V. D. Satish|Internet of Things: A Product Development Cycle for the Entrepreneurs
+Kumar, Sanjeev|Applications of Statistical Machine Learning Algorithms in Agriculture Management Processes
+Rodriguez, Jonathan|Location-Based Data Auditing for Precision Farming IoT Networks
+Rodrigues, Joel J. P. C.|Security in IoT-enabled smart agriculture: architecture, security solutions and challenges
+Sharmila K P.|LoRa Technology Based Hydroponic Farm Monitoring System
+Shankar, K.|An Optimal Classification Model for Rice Plant Disease Detection
+Kumar, V. D. Satish|Internet of Things: A Product Development Cycle for the Entrepreneurs
+Kumari P.V.|Internet of Things enabled Onion Growth Monitoring System using Cloud
+Tn, Padmini|AgriWealth: IoT based farming system
+TN P.|AgriWealth: IoT based farming system
+Maheshwari, Piyush|IoT-Based Smart Tree Management Solution for Green Cities
+Maheswari, B. Uma|Health monitoring and fault prediction using a lightweight deep convolutional neural network optimized by Levy flight optimization algorithm
+Joshi, Karuna|Ontologies and Artificial Intelligence Systems for the Cooperative Smart Farming Ecosystem
+Johari N.M.|Scaling Vertical Farming from Micro to Macro using Wireless Network for Smart Agriculture
+Chen, Yungyao|The Challenge of Aqua Creatures Specie Classification in the Aquarium Innovation Theme
+Chen, Hong|Decentralized Personal Cloud Data Model and its Application in Campus Health Information System
+Marino, Stefano|Technology and Data Fusion Methods to Enhance Site-Specific Crop Monitoring
+Marino, S.|Technology and Data Fusion Methods to Enhance Site-Specific Crop Monitoring
+Dolfsma, Wilfred|A smart web of firms, farms and internet of things (IOT): enabling collaboration-based business models in the agri-food industry
+Dolfsma W.|A smart web of firms, farms and internet of things (IOT): enabling collaboration-based business models in the agri-food industry
+Kumar, V. D. Satish|Internet of Things: A Product Development Cycle for the Entrepreneurs
+Kumari S.|Smart Agriculture System Using IoT and Cloud Computing
+Kumar, Neeraj|Secure Multifactor Authenticated Key Agreement Scheme for Industrial IoT
+Kumar R.|Modeling the challenges for agri-food supply chain 4.0: Tism approach
+Kumar, Neeraj|Secure Multifactor Authenticated Key Agreement Scheme for Industrial IoT
+Kumar R.|Overview of iot in the agroecosystem
+Sunitha, C. Adline|Chaotic and Paillier secure image data sharing based on blockchain and cloud security
+Sunitha C.A.|Chaotic and Paillier secure image data sharing based on blockchain and cloud security
+Al-Amri, Jehad F.|Development of IoT Based Fish Monitoring System for Aquaculture
+Alammary J.|AgroBahrain: A Conceptual Framework for Agriculture Big Data for Bahrain
+Kim, Jai-Hoon|UAV path planning method for avoiding restricted areas
+Kim, Taioun|SMART FARM REALIZATION BASED ON DIGITAL TWIN
+Chen, Yungyao|The Challenge of Aqua Creatures Specie Classification in the Aquarium Innovation Theme
+Chen, Hong|Decentralized Personal Cloud Data Model and its Application in Campus Health Information System
+Carvajal, Rodrigo|LoRa Based IoT Platform for Remote Monitoring of Large-Scale Agriculture Farms in Chile
+Carvajal R.|LoRa Based IoT Platform for Remote Monitoring of Large-Scale Agriculture Farms in Chile
+Sri Bhargav Sai, G.|Smart agricult ure and home automation using google assistance
+Srivastava K.|Farming automation
+Sundararajan S.|Intelligent Itinerant Robot [IIR] for Agricultural Farm Monitoring using IoT
+Sundar, Ramesh|Cardiac disease diagnosis using feature extraction and machine learning based classification with Internet of Things(IoT)
+Sunitha C.A.|Chaotic and Paillier secure image data sharing based on blockchain and cloud security
+Sutham T.|IoT-based Automatic Brightness and Soil Moisture Control System for Gerbera Smart Greenhouse
+Sinha, Keshav|IoT and its real-time application in agriculture
+Singh, K. G.|Development of an IoT based weighing type micro-lysimeter for soilless cultivation
+Kumar, V. D. Satish|Internet of Things: A Product Development Cycle for the Entrepreneurs
+Kumar G.B.A.|Sensor Based Smart Agriculture with IoT Technologies: A Review
+Li, Daoliang|Intelligent fish farm-the future of aquaculture
+Li, Ming|Streamlining Traceability Data Generation in Apple Production Using Integral Management with Machine-to-Machine Connections
+Li, Daoliang|Intelligent fish farm—the future of aquaculture
+Li, Ming|Streamlining Traceability Data Generation in Apple Production Using Integral Management with Machine‐to‐Machine Connections
+Bouchekara, Houssem R. E. H.|Livestock Management With Unmanned Aerial Vehicles: A Review
+Bouchekara, Houssem|Livestock Management with Unmanned Aerial Vehicles: A Review
+Marino, Stefano|Technology and Data Fusion Methods to Enhance Site-Specific Crop Monitoring
+Martynenko, A.|IoT, Big Data, and Artificial Intelligence in Agriculture and Food Industry
+On-rit, Surajate|WEB SERVICES PERFORMANCE EVALUATION ON SINGLE BOARD COMPUTERS FOR MOBILE APPLICATIONS AND IoT DEVICES
+On-rit S.|WEB SERVICES PERFORMANCE EVALUATION ON SINGLE BOARD COMPUTERS FOR MOBILE APPLICATIONS AND IoT DEVICES
+Dezuanni, Michael L.|Critical factors of digital AgTech adoption on Australian farms: from digital to data divide
+Dezuanni, Michael|Critical factors of digital AgTech adoption on Australian farms: from digital to data divide
+Soundhaaryha B.S.|Survey on IoT based E-Farming Technology Enabled Farming
+Saranya S.|A Study of Smart Farming Based on IOT
+Selvakumaran, S.|Application of Machine Learning and Big Data in Doubly Fed Induction Generator based Stability Analysis of Multi Machine System using Substantial Transformative Optimization Algorithm
+Aslekar A.|Role of ICT & Fintech in Indian Agriculture
+Shacham-Diamand, Yosef Y.|Green Energy-Based Efficient IoT Sensor Network for Small Farms
+Sharma, Manish|Smart Agriculture Using IoD: Insights, Trends and Road Ahead
+Pearson, Simon|Photovoltaic Agricultural Internet of Things Towards Realizing the Next Generation of Smart Farming
+Paris M.|Planetary Digital Twin: A Case Study in Aquaculture
+
