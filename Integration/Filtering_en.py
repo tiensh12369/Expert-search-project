@@ -169,7 +169,7 @@ for i in range(len(key_querys)):
                             if temp[key]['inst'] == exiinst  or (src != "" and src in tgt):  # 소속 같을때
                                 Answer_dict[tempName][site[i]] =  {'inst' : exiinst, 'A_id': [mng_one], 'papers' : paper, 'oriInst' : oriinst}
                                 Inte_name.append(tempName)
-                                if  Answer_dict[tempName]['inst'] == "" or Answer_dict[tempName]['inst'] == " ":
+                                if Answer_dict[tempName]['inst'] == "" or Answer_dict[tempName]['inst'] == " ":
                                     Answer_dict[tempName]['inst'] = Answer_dict[tempName][site[i]]['oriInst']
                                 flag = False
                                 break
@@ -351,8 +351,8 @@ for Answer_one in Answer_dict:
                                 else:
                                     Answer_dict[pair[0]][site_one] = Answer_dict[pair[1]][site_one]
                                     
-                                if Answer_dict[pair[0]]['inst'] == "" or Answer_dict[pair[0]]['inst'] == " ":
-                                    Answer_dict[pair[0]]['inst'] = Answer_dict[pair[0]][site_one]['oriInst']
+                            if Answer_dict[pair[0]]['inst'] == "" or Answer_dict[pair[0]]['inst'] == " ":
+                                Answer_dict[pair[0]]['inst'] = Answer_dict[pair[0]][site_one]['oriInst']
                         flag = True
                         preprocessedList.remove(pair[1])
                         break
@@ -405,6 +405,7 @@ for Answer_one in Answer_dict:
                 count_rule += 1
                 real_name1 = Answer_dict[Answer_one]['name']
                 real_name2 = Answer_dict[Answer_two]['name']
+                
                 if Secondary_filter2(real_name1, real_name2, site1, inst1, ra1, site2, inst2, ra2) >= 3:
                     Inte_name.append(Answer_one)
                     deleteList.append(Answer_two)
@@ -418,6 +419,7 @@ for Answer_one in Answer_dict:
                                 Answer_dict[Answer_one][site_one]['papers'] = list(set(Answer_dict[Answer_one][site_one]['papers']))
                             else:
                                 Answer_dict[Answer_one][site_one] = Answer_dict[Answer_two][site_one]
+                            
                             if Answer_dict[Answer_one]['inst'] == "" or Answer_dict[Answer_one]['inst'] == " ":
                                 Answer_dict[Answer_one]['inst'] = Answer_dict[Answer_one][site_one]['oriInst']
 
