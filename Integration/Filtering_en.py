@@ -371,8 +371,16 @@ sameLen_list = {}
 
 for Answer_one in Answer_dict:
     for Answer_two in Answer_dict:
-        name_sim = jaro.jaro_winkler_metric(Answer_one, Answer_two)
-        if name_sim >= 0.8 and Answer_one != Answer_two:
+        if '_' in Answer_one and '_' in Answer_two:
+            numSame1 = Answer_one.split("_")[1]
+            numSame2 = Answer_two.split("_")[1]
+        else:
+            numSame1 = Answer_one
+            numSame2 = Answer_two
+            
+        name_sim = jaro.jaro_winkler_metric(numSame1, numSame2)
+        
+        if name_sim >= 0.82 and numSame1 != numSame2:
             getRaw(Answer_one)
             getRaw(Answer_two)
 
@@ -380,10 +388,9 @@ for Answer_one in Answer_dict:
                 temp = Answer_one
                 Answer_one = Answer_two
                 Answer_two = temp
+                
             elif len(Answer_one) == len(Answer_two):                
                 if '_' in Answer_one and '_' in Answer_two:
-                    numSame1 = Answer_one.split("_")[1]
-                    numSame2 = Answer_two.split("_")[1]
                     if numSame1 > numSame2:
                         temp = Answer_one
                         Answer_one = Answer_two
