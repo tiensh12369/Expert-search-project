@@ -5,7 +5,7 @@ import jaro
 import time
 import sys
 import os
-import multicpu_220504
+# import multicpu_220504
 
 client = MongoClient('mongodb://203.255.92.141:27017', authSource='admin')
 filter_info = client['PUBLIC']['FilterInfo'] #필터접근
@@ -273,7 +273,7 @@ def filter(site, rawdata):
         keyword = rawdata['koKeyword'].split(",")
         journal = ""
         conference = ""
-        title = rawdata['koTitle']
+        title = ""
 
     else :
         coauthor = rawdata['author'].split(";")[:-1]
@@ -354,25 +354,11 @@ savetime2 = 0
 def getRaw(name):
     if 'raws' not in Answer_dict[name]:
         raws = []
-        raw_one = {}
         for site_one in site:
             if site_one in Answer_dict[name]:
                 for c in raw_dbs[site_one].find({"_id": {"$in": Answer_dict[name][site_one]['papers']}}):
-                    raw_one['site'] = site_one
-                    if site_one == 'NTIS':
-                        raw_one['rsc'] = c['rsc']
-                        raw_one['prdStart'] = c['prdStart']
-                        raw_one['koKeyword'] = c['koKeyword']
-                        raw_one['koTitle'] = c['koTitle']
-                    else:
-                        raw_one['author'] = c['author']
-                        raw_one['issue_year'] = c['issue_year']
-                        raw_one['paper_keyword'] = c['paper_keyword']
-                        raw_one['journal'] = c['journal']
-                        raw_one['issue_inst'] = c['issue_inst']
-                        raw_one['title'] = c['title']
-
-                    raws.append(raw_one)
+                    c['site'] = site_one
+                    raws.append(c)
         
         Answer_dict[name]['raws'] = raws
 
@@ -499,8 +485,8 @@ filter_dict= {'keyId': keyid, 'fId': f_id, 'paper': {
 if len(Answer_dict) != 0:
     filters_category.insert_one(filter_dict)
     id_domestic.insert_many(Answer_dict.values()) #mongodb 추가
-    analyzer = multicpu_220504.run_factor_integration(keyid, f_id)
-    analyzer.run()
+    # analyzer = multicpu_220504.run_factor_integration(keyid, f_id)
+    # analyzer.run()
     print("Integration OK", time.time() - start1)
 else:
     print("No Data")

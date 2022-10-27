@@ -292,32 +292,13 @@ savetime2 = 0
 def getRaw(name):
     if 'raws' not in Answer_dict[name]:
         raws = []
-        raw_one = {}
         for site_one in site:
             if site_one in Answer_dict[name]:
                 for c in raw_dbs[site_one].find({"_id": {"$in": Answer_dict[name][site_one]['papers']}}):
-                    raw_one['site'] = site_one
-                    raw_one['author'] = c['author']
-                    raw_one['paper_keyword'] = c['paper_keyword']
-                    raw_one['journal'] = c['journal']
-                    raw_one['title'] = c['title']
-                    raw_one['issue_year'] = c['issue_year']
-                    raw_one['issue_inst'] = c['issue_inst']
-                    
-                    if site_one == "WOS":
-                        raw_one['emails'] = c['emails']
-                        raw_one['funding text'] = c['funding text']
-                        
-                    elif site_one == "SCOPUS":
-                        for funding in c.keys():
-                            if "funding_text_" in funding and c[funding] not in '':
-                                raw_one[funding] = c[funding]
-                                
-                        raw_one['correspondence_address'] = c['correspondence_address']
-
-                    raws.append(raw_one)
+                    c['site'] = site_one
+                    raws.append(c)
         Answer_dict[name]['raws'] = raws
-        
+
 processedList = []
 deleteList = []
 count_rule = 0
