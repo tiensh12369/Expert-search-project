@@ -469,8 +469,6 @@ for check_name in set(Inte_name): #통합저자
 for fp in fp_dict:
     f_pyear = fc_simple_filter(fp_dict[fp]['year'], f_pyear)
     f_pinst = fc_simple_filter(fp_dict[fp]['inst'].replace(".", "^"), f_pinst)
-    if fp_dict[fp]['journal'] == []:
-        continue
     f_pjournal = fc_simple_filter(fp_dict[fp]['journal'].replace(".", "^"), f_pjournal)
     
 filter_dict= {'keyId': keyid, 'fId': f_id, 'paper': { 
@@ -485,14 +483,14 @@ filter_dict= {'keyId': keyid, 'fId': f_id, 'paper': {
                 'rsc': {'k': 'rsc', 'v': '참여인원', 'list': f_nrsc }
             }}
 
+
 if len(Answer_dict) != 0:
     filters_category.insert_one(filter_dict)
     id_domestic.insert_many(Answer_dict.values()) #mongodb 추가
     analyzer = multicpu_220504.run_factor_integration(keyid, f_id)
     analyzer.run()
-    analyzer.factor_nome()
     print("Integration OK", time.time() - start1)
 else:
     print("No Data")
 
-os.system(f'python3 Filtering_en.py {f_id} {keyid}')
+os.system(f'python3 Filtering_en.py 0 {keyid}')

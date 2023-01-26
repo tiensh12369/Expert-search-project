@@ -87,7 +87,6 @@ for i in range(len(key_querys)):
         if key_query['author_inst'] not in "":
             paper_year =  str(key_query['issue_year'])
             paper_journal = key_query['journal']
-            # ori_inst = key_query['originalName'].split(';')[-2]
             ori_inst = key_query['author_inst'].split(';')[-2]
             paper_lang = key_query['issue_lang']
             exi_inst = key_query['author_inst'].split(';')[-2]
@@ -95,7 +94,7 @@ for i in range(len(key_querys)):
             mng_id = key_query['author_id'].split(';')[-1]
             paper = key_query['_id']
             
-        if simple_filter(paper_year, pyear) and simple_filter(paper_journal, pjournal) and simple_filter(ori_inst, pinst):# and simple_filter(paper_lang, plang):
+        if simple_filter(paper_year, pyear) and simple_filter(paper_journal, pjournal) and simple_filter(ori_inst, pinst):
             if mng_id not in mng_dict:
                 mng_dict[mng_id] = {'name' : mng_name, 'inst' : exi_inst, 'papers' : [], 'oriInst' : ori_inst}
             mng_dict[mng_id]['papers'].append(paper)
@@ -490,12 +489,11 @@ for fp in fp_dict:
     f_pyear = fc_simple_filter(fp_dict[fp]['year'], f_pyear)
     f_pinst = fc_simple_filter(fp_dict[fp]['inst'].replace(".", "^"), f_pinst)
     f_pjournal = fc_simple_filter(fp_dict[fp]['journal'].replace(".", "^"), f_pjournal)
-    #f_plang = fc_simple_filter(fp_dict[fp]['lang'], f_plang)
     
 filter_dict= {'keyId': keyid, 'fId': f_id, 'paper': { 
                 'year': {'list': f_pyear, 'k': 'year', 'v': '연도' },
                 'inst': {'k': 'inst', 'list': f_pinst, 'v': '소속', 'f': 'false' },
-                'journal': {'list': f_pjournal, 'k': 'journal', 'v': '저널'}#, 'lang': {'list': f_plang, 'k': 'lang', 'v': '언어' }
+                'journal': {'list': f_pjournal, 'k': 'journal', 'v': '저널'}
             },
             'project': {
                 'year': {'list': [], 'k': 'year', 'v': '연도' },
