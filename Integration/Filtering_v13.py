@@ -483,7 +483,6 @@ filter_dict= {'keyId': keyid, 'fId': f_id, 'paper': {
                 'rsc': {'k': 'rsc', 'v': '참여인원', 'list': f_nrsc }
             }}
 
-
 if len(Answer_dict) != 0:
     filters_category.insert_one(filter_dict)
     id_domestic.insert_many(Answer_dict.values()) #mongodb 추가
