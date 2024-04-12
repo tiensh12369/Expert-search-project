@@ -38,19 +38,7 @@ def calculate_g_index(quotation):  #g_index
 
 
 
-quotation= [15, 8, 12, 5, 9, 20, 7, 4, 6, 10, 13, 0, 11]
 
-
-
-
-# 논문의 인용 횟수를 추출하여 h-지수 계산
-h_index = calculate_h_index(quotation)
-i10_index=calculate_i10_index(quotation)
-g_index = calculate_g_index(quotation)
-
-print("h-지수:", h_index)
-print("i10-지수:", i10_index)
-print("g-지수:", g_index)
 
 
 # In[5]:
