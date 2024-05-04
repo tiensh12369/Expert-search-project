@@ -1,11 +1,101 @@
-,Valid,Name,Affiliation,Email Domain,Citation Count,ID,Paper Count,h-index,i10-index,g-index,scoquality,score,recentness
-0,+,"Graham Colditz, MD, DrPH","Professor, Dept. of Surgery, Washington University School of Medicine, St. Louis",wudosis.wustl.edu,156961.0,id_M5_mEHQAAAAJ,1201.0,213.0,825.0,366.0,0.2244861387182173,11.250543530641437,0.0005247318946114128
-1,-,Pierre Bourdieu,"Sociology, Centre de Sociologie Europï¿½enne, Collï¿½ge de France",,253192.0,id_d_lp40IAAAAJ,929.0,180.0,583.0,501.0,0.169128209989398,8.4564104994699,0.0
-2,-,Michel Foucault,"Philosophy, Collï¿½ge de France",,274933.0,id_AKqYlxMAAAAJ,672.0,163.0,441.0,524.0,0.13291236264703174,6.645618132351588,0.0
-3,+,Eric Topol,"Professor of Genomics, The Scripps Research Institute",scripps.edu,101077.0,id_E2-uIQYAAAAJ,1605.0,159.0,894.0,274.0,0.24209989583395206,12.1049947916976,0.0
-4,+,Eugene Koonin,"Senior Investigator, NCBI, NIH",ncbi.nlm.nih.gov,82578.0,id_F4P3ghEAAAAJ,712.0,144.0,536.0,272.0,0.13826240721238053,7.193093881074475,0.005599470409108963
-5,-,Herbert Simon,"Professor of Computer Science, Carnegie Mellon",,178637.0,id_9d7rMrkAAAAJ,786.0,139.0,435.0,421.0,0.12816320461562228,6.408160230781113,0.0
-6,+,Guido Kroemer,Paris Descartes University,igr.fr,77013.0,id_OU05Q_MAAAAJ,844.0,139.0,516.0,263.0,0.13627804274534894,7.514534998382237,0.01401265722229578
-7,+,George P. Chrousos,"Professor, School of Medicine, University of Athens",med.uoa.gr,71958.0,id_rMgCyBUAAAAJ,1265.0,135.0,772.0,228.0,0.196128255427158,9.806412771357898,0.0
-8,-,Anthony Downey Stark,,P.HD em Fï¿½sica-quï¿½ntica,76627.0,id_C_dhdvAAAAAJ,627.0,134.0,411.0,269.0,0.11197239724286764,5.598619862143382,0.0
-9,+,Anil K. Jain,Michigan State University,cse.msu.edu,81337.0,id_g-_ZXGsAAAAJ,715.0,129.0,428.0,278.0,0.11929874353488235,5.964937176744118,0.0
+,name,ID,h_score,rank
+0,Guido Kroemer,id_OU05Q_MAAAAJ,49.0,1
+1,Jiming Liu,id_Il6ArO0AAAAJ,44.0,2
+2,Goncalo Abecasis,id_t53jWtYAAAAJ,43.0,3
+3,Sandro De Cecco,id_775UehEAAAAJ,43.0,3
+4,yanxi liu,id_9gpR5y0AAAAJ,43.0,3
+5,Jean-Luc Starck,id_IAaAiXgAAAAJ,43.0,3
+6,Lev Dudko,id_zEQGLhoAAAAJ,42.0,7
+7,Berrie Giebels,id_Q0LxuhIAAAAJ,42.0,7
+8,xiaoyuan chen,id_XBxXjAQAAAAJ,42.0,7
+9,Andreas Warburton,id_HI4OwhYAAAAJ,42.0,7
+10,Bodhitha Jayatilaka,id_zjNNC58AAAAJ,40.0,11
+11,John PA Ioannidis,id_A9e6sPYAAAAJ,39.0,12
+12,Emanuele Daddi,id_7V-EknkAAAAJ,38.0,13
+13,Rob Ivison,id_ASAI6foAAAAJ,38.0,13
+14,Pascal Fortin,id_NTY8RY8AAAAJ,38.0,13
+15,Philippe Froguel,id_hYzT7KcAAAAJ,38.0,13
+16,Xiaoyuan Chen,id__yF5knkAAAAJ,37.0,17
+17,Nicola Maffulli,id_m9vjm0wAAAAJ,37.0,17
+18,Nicole Soranzo,id_WH1kIMIAAAAJ,37.0,17
+19,Mark Halpern,id_4ZLZX6MAAAAJ,36.0,20
+20,David B. Goldstein,id_RmosgOcAAAAJ,35.0,21
+21,Zidong Wang,id_Bbz0jRUAAAAJ,35.0,21
+22,Anuj Kumar Singh,id_XSGHN8IAAAAJ,35.0,21
+23,Mark Gerstein,id_YvjuUugAAAAJ,34.0,24
+24,Jean-Paul Kneib,id_EDaYupAAAAAJ,34.0,24
+25,Julian Parkhill,id_Hh8RwigAAAAJ,34.0,24
+26,HV Poor,id_Dq93mOUAAAAJ,34.0,24
+27,Joseph Wang,id_0DEykT4AAAAJ,34.0,24
+28,Wil van der Aalst,id_aSZYyxIAAAAJ,33.0,29
+29,Karl Deisseroth,id_WhhC4LwAAAAJ,32.0,30
+30,Michael Boehnke,id_nGgivIAAAAAJ,32.0,30
+31,Ian Smail,id_k_CxVKUAAAAJ,32.0,30
+32,Mikhail Katsnelson,id_MGcJlikAAAAJ,32.0,30
+33,Elio Riboli,id_nRvdl64AAAAJ,32.0,30
+34,Bruce Yabsley,id_D0SJGwoAAAAJ,31.0,35
+35,Sabino Matarrese,id_kkK7BFMAAAAJ,31.0,35
+36,Anthony Downey Stark,id_C_dhdvAAAAAJ,31.0,35
+37,Pim Cuijpers,id_N08XHUAAAAAJ,31.0,35
+38,Sergei A. Voloshin,id_4KvxNmAAAAAJ,31.0,35
+39,Dr. HB Kekre,id_oiVHiwcAAAAJ,31.0,35
+40,Ewan Birney,id_ftd3UB0AAAAJ,31.0,35
+41,Albert JR Heck,id_JDmqil8AAAAJ,30.0,42
+42,Julia Velkovska,id_kkJMCHEAAAAJ,30.0,42
+43,Hugh Possingham,id_9-veEp8AAAAJ,30.0,42
+44,Robin Wood,id_gSRMRzQAAAAJ,30.0,42
+45,Rene Bellwied,id_UKzuTQUAAAAJ,30.0,42
+46,Simon Heath,id_2rXZwyMAAAAJ,30.0,42
+47,Ziqiang Wang,id_tiGGCdIAAAAJ,30.0,42
+48,Laird Kramer,id_zl01EikAAAAJ,30.0,42
+49,Viral Acharya,id_iZAsYLgAAAAJ,30.0,42
+50,John W. Harris,id_WvaolBUAAAAJ,30.0,42
+51,Eugene Koonin,id_F4P3ghEAAAAJ,30.0,42
+52,Kamyar Kalantar-Zadeh,id_2yH855QAAAAJ,30.0,42
+53,Kamyar Kalantar-Zadeh,id_kYonxxoAAAAJ,30.0,42
+54,Stefano Volinia,id_Kluwk1AAAAAJ,30.0,42
+55,Marco van Leeuwen,id_imBDaawAAAAJ,30.0,42
+56,nicholson jk,id_wp-bBSYAAAAJ,30.0,42
+57,Vincenzo Di Marzo,id_2N1ZIl0AAAAJ,30.0,42
+58,Junshan Zhang,id_UtAdFs8AAAAJ,29.0,59
+59,Richard S Ellis,id_Jde99xEAAAAJ,29.0,59
+60,Bruce E Logan,id_hUOWXkwAAAAJ,29.0,59
+61,F. Xavier Castellanos,id_PFDyrI4AAAAJ,29.0,59
+62,George Perry,id_ySklo5EAAAAJ,29.0,59
+63,Murat Yï¿½cel,id_NYiZ2BkAAAAJ,29.0,59
+64,Rajkumar Buyya,id_7xN6JqYAAAAJ,29.0,59
+65,Joshua S. Bloom,id_fHkUYk0AAAAJ,29.0,59
+66,&#1589;&#1604;&#1575;&#1581; &#1575;&#1576;&#1608; &#1575;&#1587;&#1593;&#1583;,id_VduYF-UAAAAJ,29.0,59
+67,Andreas Meyer-Lindenberg,id_3lQB9_cAAAAJ,29.0,59
+68,Eric Topol,id_E2-uIQYAAAAJ,29.0,59
+69,"Benjamin F. Voight, PhD",id_WNxzxNAAAAAJ,29.0,59
+70,Klaus Schulten,id_k7vghtEAAAAJ,29.0,59
+71,Vladimir Uversky,id_rkVCGU0AAAAJ,29.0,59
+72,Ugur Akgun,id_a5gr_3QAAAAJ,28.0,73
+73,Syed A. Jafar,id_UK-6ck8AAAAJ,28.0,73
+74,Federico Capasso,id_CmpEzW8AAAAJ,28.0,73
+75,Jeffrey Andrews,id_Hr9Gey0AAAAJ,28.0,73
+76,Asantha Cooray,id_JdPtbhEAAAAJ,28.0,73
+77,remuzzi g*,id_LYz-mFwAAAAJ,28.0,73
+78,Francis Bach,id_6PJWcFEAAAAJ,28.0,73
+79,Dan Littman,id_k_88WOoAAAAJ,28.0,73
+80,Paolo Bartalini,id_lPEYqq0AAAAJ,28.0,73
+81,j. richard bond,id_bKrJyyUAAAAJ,28.0,73
+82,Mustafa Soylak,id_agOlmzcAAAAJ,28.0,73
+83,Nilanjan Chatterjee,id_vErFKeAAAAAJ,28.0,73
+84,Richard O&#39;Shaughnessy,id_-Bj4LvQAAAAJ,28.0,73
+85,Anders Dale,id_F4URLXYAAAAJ,28.0,73
+86,Carlos Frenk,id_1sSj1fYAAAAJ,28.0,73
+87,John Johnson,id_NKLGLsoAAAAJ,28.0,73
+88,Robert Heath,id_17Ko8Q0AAAAJ,28.0,73
+89,Paul Glasziou,id_7Lh_arwAAAAJ,28.0,73
+90,Mark A Rubin,id_e3xidLIAAAAJ,28.0,73
+91,Francisco Herrera,id_HULIk-QAAAAJ,28.0,73
+92,Lee Finn,id_bufl9mcAAAAJ,27.0,93
+93,Xiaole Shirley Liu,id_8XNfVucAAAAJ,27.0,93
+94,Alberto Lusiani,id_xwUC-YAAAAAJ,27.0,93
+95,Jose Rodriguez,id_KZ5TMuAAAAAJ,27.0,93
+96,Kazuki Saito,id_atV56FkAAAAJ,27.0,93
+97,Yuehe Lin,id_3iGcwycAAAAJ,27.0,93
+98,Andreas Freise,id_tromUqkAAAAJ,27.0,93
+99,Michael I. Jordan,id_yxUduqMAAAAJ,27.0,93

@@ -1,11 +1,101 @@
-,Valid,Name,Affiliation,Email Domain,Citation Count,ID,Paper Count,h-index,i10-index,g-index,scoquality,score,recentness
-0,-,Michel Foucault,"Philosophy, Collï¿½ge de France",,274933.0,id_AKqYlxMAAAAJ,672.0,163.0,441.0,524.0,0.13291236264703174,6.645618132351588,0.0
-1,-,Pierre Bourdieu,"Sociology, Centre de Sociologie Europï¿½enne, Collï¿½ge de France",,253192.0,id_d_lp40IAAAAJ,929.0,180.0,583.0,501.0,0.169128209989398,8.4564104994699,0.0
-2,-,Herbert Simon,"Professor of Computer Science, Carnegie Mellon",,178637.0,id_9d7rMrkAAAAJ,786.0,139.0,435.0,421.0,0.12816320461562228,6.408160230781113,0.0
-3,-,Max Weber,"Sociology, Universities of Berlin, Freiburg, Heidelberg, Vienna, Munich",,134547.0,id_fT8j_PUAAAAJ,549.0,100.0,252.0,366.0,0.07340709484302063,3.670354742151032,0.0
-4,+,"Graham Colditz, MD, DrPH","Professor, Dept. of Surgery, Washington University School of Medicine, St. Louis",wudosis.wustl.edu,156961.0,id_M5_mEHQAAAAJ,1201.0,213.0,825.0,366.0,0.2244861387182173,11.250543530641437,0.0005247318946114128
-5,+,robert tibshirani,"Professor of Health Research and Policy, and Statistics, Stanford University",stanford.edu,112355.0,id_ZpG_cJwAAAAJ,469.0,91.0,209.0,335.0,0.06282162877024061,3.3357477962506774,0.0038933271547729373
-6,+,Donald B Rubin,"John L. Loeb Professor of Statistics, Harvard University",stat.harvard.edu,112440.0,id_5q4fhUoAAAAJ,412.0,97.0,231.0,335.0,0.06734792425343535,3.3673962126717667,0.0
-7,+,Lotfi A. Zadeh,"Professor Emeritus, EECS, UC Berkeley",eecs.berkeley.edu,100198.0,id_S6H-0RAAAAAJ,652.0,84.0,196.0,316.0,0.06700967732364152,3.3504838661820764,0.0
-8,-,Karl Marx,"Universities of Bonn, Berlin, and Jena",,105358.0,id_I6dIhHQAAAAJ,2506.0,125.0,621.0,307.0,0.21200894244263951,10.600447122131976,0.0
-9,-,Jacques Derrida,"Philosophy, ï¿½cole des Hautes ï¿½tudes en Sciences Sociales de Paris (EHESS)",,101567.0,id_0A_lO2UAAAAJ,1771.0,125.0,662.0,302.0,0.20548284960491853,10.274142480245928,0.0
+,name,ID,g_score,rank
+0,robert tibshirani,id_ZpG_cJwAAAAJ,123.0,1
+1,Goncalo Abecasis,id_t53jWtYAAAAJ,109.0,2
+2,Edward L. Wright,id_0rlyyTwAAAAJ,99.0,3
+3,Mark Halpern,id_4ZLZX6MAAAAJ,98.0,4
+4,Guido Kroemer,id_OU05Q_MAAAAJ,97.0,5
+5,David B. Goldstein,id_RmosgOcAAAAJ,96.0,6
+6,Berrie Giebels,id_Q0LxuhIAAAAJ,86.0,7
+7,John PA Ioannidis,id_A9e6sPYAAAAJ,81.0,8
+8,Jean-Luc Starck,id_IAaAiXgAAAAJ,81.0,8
+9,Nicole Soranzo,id_WH1kIMIAAAAJ,81.0,8
+10,Andreas Warburton,id_HI4OwhYAAAAJ,77.0,11
+11,Mikhail Katsnelson,id_MGcJlikAAAAJ,76.0,12
+12,Jiming Liu,id_Il6ArO0AAAAJ,76.0,12
+13,Michael Wooldridge,id_JD8v9fkAAAAJ,75.0,14
+14,Ewan Birney,id_ftd3UB0AAAAJ,75.0,14
+15,Giovanni de Simone,id_yNz5GFUAAAAJ,75.0,14
+16,Michael Boehnke,id_nGgivIAAAAAJ,75.0,14
+17,Antonio H. Castro Neto,id_4kNDbNEAAAAJ,74.0,18
+18,Mark Gerstein,id_YvjuUugAAAAJ,74.0,18
+19,Lev Dudko,id_zEQGLhoAAAAJ,73.0,20
+20,xiaoyuan chen,id_XBxXjAQAAAAJ,72.0,21
+21,Sandro De Cecco,id_775UehEAAAAJ,71.0,22
+22,Raj Jain,id_runT3RsAAAAJ,70.0,23
+23,Philippe Froguel,id_hYzT7KcAAAAJ,70.0,23
+24,Narayan KM,id_PYlnaz8AAAAJ,69.0,25
+25,Ado Jorio,id_3QtEtlYAAAAJ,69.0,25
+26,Carmen M Reinhart,id_rvtSK2oAAAAJ,69.0,25
+27,Christopher D Manning,id_1zmDOdwAAAAJ,68.0,28
+28,Simon Heath,id_2rXZwyMAAAAJ,68.0,28
+29,Karl Marx,id_I6dIhHQAAAAJ,67.0,30
+30,Dan Littman,id_k_88WOoAAAAJ,67.0,30
+31,Kenneth Rogoff,id_mcZMzRsAAAAJ,67.0,30
+32,Steven Salzberg,id_sUVeH-4AAAAJ,66.0,33
+33,Xiaoyuan Chen,id__yF5knkAAAAJ,66.0,33
+34,Pascal Fortin,id_NTY8RY8AAAAJ,66.0,33
+35,Kevin B Jacobs,id_djRGDZ0AAAAJ,64.0,36
+36,Paul Glasziou,id_7Lh_arwAAAAJ,64.0,36
+37,Julian Parkhill,id_Hh8RwigAAAAJ,63.0,38
+38,Paolo Valente,id_nPanavAAAAAJ,63.0,38
+39,yanxi liu,id_9gpR5y0AAAAJ,63.0,38
+40,"Mark S. Sulkowski, MD",id_2B2VtN0AAAAJ,62.0,41
+41,Stefano Volinia,id_Kluwk1AAAAAJ,62.0,41
+42,Bodhitha Jayatilaka,id_zjNNC58AAAAJ,62.0,41
+43,Jeff Dean,id_NMS69lQAAAAJ,62.0,41
+44,Richard M. Myers,id_uNSng0gAAAAJ,62.0,41
+45,Silvia G Priori,id_tKploLcAAAAJ,62.0,41
+46,"Neal B,",id_UA7xfZIAAAAJ,62.0,41
+47,Rajkumar Buyya,id_7xN6JqYAAAAJ,62.0,41
+48,Fernando Barreiro,id_KFn1SBoAAAAJ,62.0,41
+49,Nikhil Padmanabhan,id_PNAYyPMAAAAJ,61.0,50
+50,Elio Riboli,id_nRvdl64AAAAJ,61.0,50
+51,Salvatore Siena,id_y-dsAooAAAAJ,61.0,50
+52,Paolo Laurelli,id_x5kWh54AAAAJ,61.0,50
+53,Michele Livan,id_IEHu4YoAAAAJ,61.0,50
+54,Emanuele Daddi,id_7V-EknkAAAAJ,61.0,50
+55,Michael Egholm,id_GhG6JNIAAAAJ,60.0,56
+56,Anil K. Jain,id_g-_ZXGsAAAAJ,60.0,56
+57,Albert-Laszlo Barabasi,id_vsj2slIAAAAJ,60.0,56
+58,Syed A. Jafar,id_UK-6ck8AAAAJ,60.0,56
+59,Karl Deisseroth,id_WhhC4LwAAAAJ,59.0,60
+60,Paul I Wen de Bakker,id_NaqLqXUAAAAJ,59.0,60
+61,Keith Ross,id_RhUcYmQAAAAJ,59.0,60
+62,Joe Zhu,id_rmFvXLkAAAAJ,59.0,60
+63,carlo adamo,id_kYC-FxkAAAAJ,59.0,60
+64,HV Poor,id_Dq93mOUAAAAJ,58.0,65
+65,Domenico della Volpe,id_B9QRdCgAAAAJ,58.0,65
+66,Jeremy Schmutz,id_v4hqKg8AAAAJ,58.0,65
+67,Rob Ivison,id_ASAI6foAAAAJ,58.0,65
+68,Nicholas A. Christakis,id_sR_OzkgAAAAJ,57.0,69
+69,Markus Brunnermeier,id_34PkXd0AAAAJ,57.0,69
+70,Sivarani Thirupathi,id_0Jy42qUAAAAJ,57.0,69
+71,"Benjamin F. Voight, PhD",id_WNxzxNAAAAAJ,57.0,69
+72,James Fowler,id_vcTq49gAAAAJ,57.0,69
+73,Stephen Boyd,id_GExyiRkAAAAJ,56.0,74
+74,John Bochanski,id_FajiwyIAAAAJ,56.0,74
+75,nicholas p restifo,id_LVBMEQ8AAAAJ,56.0,74
+76,remuzzi g*,id_LYz-mFwAAAAJ,56.0,74
+77,Eric Topol,id_E2-uIQYAAAAJ,56.0,74
+78,Marcel Zwahlen,id_R2nlOToAAAAJ,55.0,79
+79,Julia Velkovska,id_kkJMCHEAAAAJ,55.0,79
+80,Yi-Long Wu,id_TNCENkUAAAAJ,55.0,79
+81,Anuj Kumar Singh,id_XSGHN8IAAAAJ,55.0,79
+82,Mark Spong,id_YeT0BYwAAAAJ,55.0,79
+83,nicholson jk,id_wp-bBSYAAAAJ,55.0,79
+84,Laird Kramer,id_zl01EikAAAAJ,55.0,79
+85,Stewart Adam,id_GY5PGRkAAAAJ,55.0,79
+86,Paul Flicek,id_we_vFfEAAAAJ,54.0,87
+87,Bruce Yabsley,id_D0SJGwoAAAAJ,54.0,87
+88,Joseph Wang,id_0DEykT4AAAAJ,54.0,87
+89,Richard S Ellis,id_Jde99xEAAAAJ,54.0,87
+90,Jeffrey Andrews,id_Hr9Gey0AAAAJ,54.0,87
+91,Yves Van de Peer,id_tBs2BVMAAAAJ,54.0,87
+92,Francis Bach,id_6PJWcFEAAAAJ,54.0,87
+93,Olaf Sporns,id_gzPWwdIAAAAJ,54.0,87
+94,Paul Debevec,id_rukYqhAAAAAJ,54.0,87
+95,Nathanael Gray,id_spRDlWkAAAAJ,54.0,87
+96,Albert Vernon Smith,id_8b-433kAAAAJ,54.0,87
+97,Nilanjan Chatterjee,id_vErFKeAAAAAJ,54.0,87
+98,Xiaole Shirley Liu,id_8XNfVucAAAAJ,54.0,87
+99,Richard Baraniuk,id_N-BBA20AAAAJ,54.0,87

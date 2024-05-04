@@ -1,11 +1,101 @@
-,Valid,Name,Affiliation,Email Domain,Citation Count,ID,Paper Count,h-index,i10-index,g-index,scoquality,score,recentness
-0,-,Jiming Liu,"Chair Professor of Computer Science, Hong Kong Baptist University",,110211.0,id_Il6ArO0AAAAJ,14259.0,122.0,2187.0,202.0,1.0,66.19783132530121,0.3239566265060241
-1,-,Anuj Kumar Singh,"Research Associate, Orissa University of Agriculture and Technology,Bhubaneswar",,60966.0,id_XSGHN8IAAAAJ,15106.0,91.0,1506.0,138.0,0.721478211240001,41.02391056200005,0.099
-2,+,yanxi liu,Penn State University,cse.psu.edu,65619.0,id_9gpR5y0AAAAJ,5106.0,102.0,1426.0,172.0,0.4947704321407853,30.984972024092087,0.12492900834105655
-3,+,Joseph Wang,"New Mexico State university, Arizona State university, Technion, University California San  &hellip;",ucsd.edu,62607.0,id_0DEykT4AAAAJ,2965.0,106.0,1253.0,172.0,0.3580648887442349,19.5225513351331,0.03238613795842712
-4,+,Eric Topol,"Professor of Genomics, The Scripps Research Institute",scripps.edu,101077.0,id_E2-uIQYAAAAJ,1605.0,159.0,894.0,274.0,0.24209989583395206,12.1049947916976,0.0
-5,-,Ziqiang Wang,Tianjin Institute of Geology and Mineral resources,,37847.0,id_tiGGCdIAAAAJ,5782.0,72.0,860.0,121.0,0.40223746397249466,25.543263374713703,0.10862780352177943
-6,+,"Graham Colditz, MD, DrPH","Professor, Dept. of Surgery, Washington University School of Medicine, St. Louis",wudosis.wustl.edu,156961.0,id_M5_mEHQAAAAJ,1201.0,213.0,825.0,366.0,0.2244861387182173,11.250543530641437,0.0005247318946114128
-7,+,George P. Chrousos,"Professor, School of Medicine, University of Athens",med.uoa.gr,71958.0,id_rMgCyBUAAAAJ,1265.0,135.0,772.0,228.0,0.196128255427158,9.806412771357898,0.0
-8,+,H. Eugene Stanley,"Professor of Physics, Boston University",bu.edu,77444.0,id_1fatN9EAAAAJ,1398.0,123.0,729.0,250.0,0.19571714184298789,9.785857092149394,0.0
-9,-,Jacques Derrida,"Philosophy, ï¿½cole des Hautes ï¿½tudes en Sciences Sociales de Paris (EHESS)",,101567.0,id_0A_lO2UAAAAJ,1771.0,125.0,662.0,302.0,0.20548284960491853,10.274142480245928,0.0
+,name,ID,i10_score,rank
+0,Jiming Liu,id_Il6ArO0AAAAJ,562.0,1
+1,yanxi liu,id_9gpR5y0AAAAJ,461.0,2
+2,Anuj Kumar Singh,id_XSGHN8IAAAAJ,238.0,3
+3,Joseph Wang,id_0DEykT4AAAAJ,217.0,4
+4,Ziqiang Wang,id_tiGGCdIAAAAJ,217.0,4
+5,xiaoyuan chen,id_XBxXjAQAAAAJ,201.0,6
+6,Lev Dudko,id_zEQGLhoAAAAJ,157.0,7
+7,Nicola Maffulli,id_m9vjm0wAAAAJ,150.0,8
+8,Guido Kroemer,id_OU05Q_MAAAAJ,148.0,9
+9,Xiaoyuan Chen,id__yF5knkAAAAJ,139.0,10
+10,Junshan Zhang,id_UtAdFs8AAAAJ,137.0,11
+11,Andreas Warburton,id_HI4OwhYAAAAJ,135.0,12
+12,Sandro De Cecco,id_775UehEAAAAJ,135.0,12
+13,Rob Ivison,id_ASAI6foAAAAJ,114.0,14
+14,HV Poor,id_Dq93mOUAAAAJ,113.0,15
+15,John PA Ioannidis,id_A9e6sPYAAAAJ,112.0,16
+16,Bodhitha Jayatilaka,id_zjNNC58AAAAJ,110.0,17
+17,Tao Jiang,id_3PCz1j0AAAAJ,105.0,18
+18,Elio Riboli,id_nRvdl64AAAAJ,104.0,19
+19,Philippe Froguel,id_hYzT7KcAAAAJ,91.0,20
+20,Wil van der Aalst,id_aSZYyxIAAAAJ,91.0,20
+21,Mark Gerstein,id_YvjuUugAAAAJ,91.0,20
+22,Vincenzo Di Marzo,id_2N1ZIl0AAAAJ,90.0,23
+23,Zidong Wang,id_Bbz0jRUAAAAJ,90.0,23
+24,Asantha Cooray,id_JdPtbhEAAAAJ,89.0,25
+25,Berrie Giebels,id_Q0LxuhIAAAAJ,88.0,26
+26,Akash Kumar,id_7Q6OSvsAAAAJ,87.0,27
+27,Albert JR Heck,id_JDmqil8AAAAJ,85.0,28
+28,&#1589;&#1604;&#1575;&#1581; &#1575;&#1576;&#1608; &#1575;&#1587;&#1593;&#1583;,id_VduYF-UAAAAJ,85.0,28
+29,Hugh Possingham,id_9-veEp8AAAAJ,84.0,30
+30,Alberto Lusiani,id_xwUC-YAAAAAJ,84.0,30
+31,Francesco Forti,id_KbIjbloAAAAJ,82.0,32
+32,Mustafa Soylak,id_agOlmzcAAAAJ,81.0,33
+33,Jean-Paul Kneib,id_EDaYupAAAAAJ,81.0,33
+34,Jean-Luc Starck,id_IAaAiXgAAAAJ,81.0,33
+35,Bruce Yabsley,id_D0SJGwoAAAAJ,81.0,33
+36,Mark Halpern,id_4ZLZX6MAAAAJ,81.0,33
+37,Yingxu Wang,id_gRVQjskAAAAJ,80.0,38
+38,Goncalo Abecasis,id_t53jWtYAAAAJ,80.0,38
+39,Riccardo de Sangro,id_IZgjMzQAAAAJ,80.0,38
+40,Pim Cuijpers,id_N08XHUAAAAAJ,79.0,41
+41,Rui L. Reis,id_t_jZzN4AAAAJ,79.0,41
+42,Kamyar Kalantar-Zadeh,id_2yH855QAAAAJ,78.0,43
+43,Kamyar Kalantar-Zadeh,id_kYonxxoAAAAJ,78.0,43
+44,Mikhail Katsnelson,id_MGcJlikAAAAJ,77.0,45
+45,Joshua S. Bloom,id_fHkUYk0AAAAJ,75.0,46
+46,Eugene Koonin,id_F4P3ghEAAAAJ,75.0,46
+47,Rajkumar Buyya,id_7xN6JqYAAAAJ,74.0,48
+48,Pascal Fortin,id_NTY8RY8AAAAJ,74.0,48
+49,nicholson jk,id_wp-bBSYAAAAJ,73.0,50
+50,George Perry,id_ySklo5EAAAAJ,70.0,51
+51,H. Eugene Stanley,id_1fatN9EAAAAJ,70.0,51
+52,Wim Hennink,id_SRhkfscAAAAJ,70.0,51
+53,Yonggang Huang,id_9gk_tZUAAAAJ,69.0,54
+54,Robin Wood,id_gSRMRzQAAAAJ,69.0,54
+55,Julia Velkovska,id_kkJMCHEAAAAJ,69.0,54
+56,Frank Leymann,id_qRnegTsAAAAJ,68.0,57
+57,Bruce E Logan,id_hUOWXkwAAAAJ,68.0,57
+58,Ian Smail,id_k_CxVKUAAAAJ,68.0,57
+59,Julian Parkhill,id_Hh8RwigAAAAJ,67.0,60
+60,"Ormel, Johan (Hans)",id_GMREZbsAAAAJ,67.0,60
+61,Franco Nori,id_SRUYLREAAAAJ,66.0,62
+62,Mark A Rubin,id_e3xidLIAAAAJ,66.0,62
+63,Klaus Schulten,id_k7vghtEAAAAJ,66.0,62
+64,remuzzi g*,id_LYz-mFwAAAAJ,66.0,62
+65,Giuseppe Biondi-Zoccai,id_Y9HjW5oAAAAJ,65.0,66
+66,David B. Goldstein,id_RmosgOcAAAAJ,65.0,66
+67,Emanuele Daddi,id_7V-EknkAAAAJ,65.0,66
+68,Elson Longo,id_OHmp6A4AAAAJ,65.0,66
+69,Vladimir Uversky,id_rkVCGU0AAAAJ,63.0,70
+70,Nicholas PJ Day,id_a9XBI-wAAAAJ,62.0,71
+71,Dr. HB Kekre,id_oiVHiwcAAAAJ,62.0,71
+72,Schahram Dustdar,id_0n5S6uUAAAAJ,62.0,71
+73,Victor Nizet,id_r6NVrQUAAAAJ,61.0,74
+74,Robert Heath,id_17Ko8Q0AAAAJ,61.0,74
+75,Laird Kramer,id_zl01EikAAAAJ,61.0,74
+76,Sabino Matarrese,id_kkK7BFMAAAAJ,61.0,74
+77,Murat Yï¿½cel,id_NYiZ2BkAAAAJ,60.0,78
+78,Benjamin J. Eggleton,id_V2cnMDEAAAAJ,60.0,78
+79,Francisco Herrera,id_HULIk-QAAAAJ,59.0,80
+80,Ajith Abraham,id_i95DGLQAAAAJ,59.0,80
+81,Nicole Soranzo,id_WH1kIMIAAAAJ,59.0,80
+82,Boris Malomed,id_-zgxVEUAAAAJ,58.0,83
+83,Sergei A. Voloshin,id_4KvxNmAAAAAJ,58.0,83
+84,Loet Leydesdorff,id_uOru7CEAAAAJ,58.0,83
+85,Horst Bischof,id__pq05Q4AAAAJ,58.0,83
+86,Loet Leydesdorff,id_ych9gNYAAAAJ,58.0,83
+87,Zhengyou Zhang,id_Ll-b-IwAAAAJ,58.0,83
+88,Sergio Tufik,id_Cup35-EAAAAJ,58.0,83
+89,Jurgen Rehm,id_p5FrCV0AAAAJ,58.0,83
+90,Federico Capasso,id_CmpEzW8AAAAJ,58.0,83
+91,Muin J. Khoury,id_hmsse84AAAAJ,57.0,92
+92,Shuji Ogino,id_87TPyfoAAAAJ,57.0,92
+93,Stefano Covino,id_4bHPvm8AAAAJ,57.0,92
+94,Paolo Valente,id_nPanavAAAAAJ,57.0,92
+95,Aziz Sheikh,id_BWpmAZcAAAAJ,57.0,92
+96,Sang Yup Lee,id_gGE8fagAAAAJ,56.0,97
+97,Gurdyal Besra,id_AE1_WSIAAAAJ,56.0,97
+98,Michael I. Jordan,id_yxUduqMAAAAJ,56.0,97
+99,Yusuf A Hannun,id_OH_dPj0AAAAJ,56.0,97

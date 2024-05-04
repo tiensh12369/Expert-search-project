@@ -1,11 +1,101 @@
-,Valid,Name,Affiliation,Email Domain,Citation Count,ID,Paper Count,h-index,i10-index,g-index,scoquality,score,recentness
-0,-,Michel Foucault,"Philosophy, Collï¿½ge de France",,274933.0,id_AKqYlxMAAAAJ,672.0,163.0,441.0,524.0,0.13291236264703174,6.645618132351588,0.0
-1,-,Pierre Bourdieu,"Sociology, Centre de Sociologie Europï¿½enne, Collï¿½ge de France",,253192.0,id_d_lp40IAAAAJ,929.0,180.0,583.0,501.0,0.169128209989398,8.4564104994699,0.0
-2,-,Oliver H. Lowry,,"Biochemistry, Washington University in St. Louis",250254.0,id_YCS0XAcAAAAJ,288.0,78.0,214.0,288.0,0.054788687251733054,2.7394343625866533,0.0
-3,-,Herbert Simon,"Professor of Computer Science, Carnegie Mellon",,178637.0,id_9d7rMrkAAAAJ,786.0,139.0,435.0,421.0,0.12816320461562228,6.408160230781113,0.0
-4,+,"Graham Colditz, MD, DrPH","Professor, Dept. of Surgery, Washington University School of Medicine, St. Louis",wudosis.wustl.edu,156961.0,id_M5_mEHQAAAAJ,1201.0,213.0,825.0,366.0,0.2244861387182173,11.250543530641437,0.0005247318946114128
-5,-,Max Weber,"Sociology, Universities of Berlin, Freiburg, Heidelberg, Vienna, Munich",,134547.0,id_fT8j_PUAAAAJ,549.0,100.0,252.0,366.0,0.07340709484302063,3.670354742151032,0.0
-6,-,Erving Goffman,"Sociology, University of Pensylvannia",,114246.0,id_rahhbn0AAAAJ,186.0,72.0,118.0,186.0,0.035613017344891716,1.7806508672445858,0.0
-7,+,Donald B Rubin,"John L. Loeb Professor of Statistics, Harvard University",stat.harvard.edu,112440.0,id_5q4fhUoAAAAJ,412.0,97.0,231.0,335.0,0.06734792425343535,3.3673962126717667,0.0
-8,+,robert tibshirani,"Professor of Health Research and Policy, and Statistics, Stanford University",stanford.edu,112355.0,id_ZpG_cJwAAAAJ,469.0,91.0,209.0,335.0,0.06282162877024061,3.3357477962506774,0.0038933271547729373
-9,-,Jiming Liu,"Chair Professor of Computer Science, Hong Kong Baptist University",,110211.0,id_Il6ArO0AAAAJ,14259.0,122.0,2187.0,202.0,1.0,66.19783132530121,0.3239566265060241
+,Valid,Name,Affiliation,Email Domain,Citation Count,ID,Paper Count,h-index,i10-index,g-index,scoquality,recentness,score
+0,-,Michel Foucault,"Philosophy, Collï¿½ge de France",,274933.0,id_AKqYlxMAAAAJ,49.0,16.0,22.0,49.0,0.007318672827340133,0.6093408711770159,30.8329772002178
+1,-,Pierre Bourdieu,"Sociology, Centre de Sociologie Europï¿½enne, Collï¿½ge de France",,253192.0,id_d_lp40IAAAAJ,45.0,11.0,13.0,45.0,0.0047010217974590655,0.6157661061829737,31.023356399021637
+2,-,Oliver H. Lowry,,"Biochemistry, Washington University in St. Louis",250254.0,id_YCS0XAcAAAAJ,1.0,1.0,0.0,1.0,4.542345914637694e-05,0.6600436912485105,33.00445573538284
+3,-,Herbert Simon,"Professor of Computer Science, Carnegie Mellon",,178637.0,id_9d7rMrkAAAAJ,10.0,3.0,2.0,10.0,0.000926376391955875,0.6406369124851052,32.07816444385305
+4,+,"Graham Colditz, MD, DrPH","Professor, Dept. of Surgery, Washington University School of Medicine, St. Louis",wudosis.wustl.edu,156961.0,id_M5_mEHQAAAAJ,143.0,22.0,52.0,42.0,0.015872352447012347,0.6662478485370052,34.106010049200876
+5,-,Max Weber,"Sociology, Universities of Berlin, Freiburg, Heidelberg, Vienna, Munich",,134547.0,id_fT8j_PUAAAAJ,24.0,8.0,8.0,24.0,0.002828313433896125,0.5950485899642526,29.89384516990744
+6,-,Erving Goffman,"Sociology, University of Pensylvannia",,114246.0,id_rahhbn0AAAAJ,8.0,4.0,3.0,8.0,0.0010698650879552485,0.6273495299880842,31.420969753801977
+7,+,Donald B Rubin,"John L. Loeb Professor of Statistics, Harvard University",stat.harvard.edu,112440.0,id_5q4fhUoAAAAJ,39.0,10.0,11.0,17.0,0.003357273775849831,0.6353039586919105,31.933061623388014
+8,+,robert tibshirani,"Professor of Health Research and Policy, and Statistics, Stanford University",stanford.edu,112355.0,id_ZpG_cJwAAAAJ,133.0,22.0,36.0,123.0,0.012517433690132765,0.6394109360518999,32.596418487101644
+9,-,Jiming Liu,"Chair Professor of Computer Science, Hong Kong Baptist University",,110211.0,id_Il6ArO0AAAAJ,6047.0,44.0,562.0,76.0,0.3252664813834641,0.9110009797431484,61.81337305633063
+10,-,Karl Marx,"Universities of Bonn, Berlin, and Jena",,105358.0,id_I6dIhHQAAAAJ,67.0,14.0,17.0,67.0,0.0069073028916941314,0.6233273136502052,31.51173082709497
+11,-,Jacques Derrida,"Philosophy, ï¿½cole des Hautes ï¿½tudes en Sciences Sociales de Paris (EHESS)",,101567.0,id_0A_lO2UAAAAJ,125.0,13.0,15.0,23.0,0.00565350983416776,0.6060614060638158,30.58574579489918
+12,+,Eric Topol,"Professor of Genomics, The Scripps Research Institute",scripps.edu,101077.0,id_E2-uIQYAAAAJ,138.0,29.0,52.0,56.0,0.016382516490601868,0.6594293922944525,33.79059543925272
+13,+,Lotfi A. Zadeh,"Professor Emeritus, EECS, UC Berkeley",eecs.berkeley.edu,100198.0,id_S6H-0RAAAAAJ,204.0,10.0,12.0,25.0,0.00763330610221763,0.6425130146961472,32.507316039918244
+14,+,Michael C. Jensen,"Jesse Isidor Straus Professor of Business, Emeritus, Harvard Business School",hbs.edu,97386.0,id_44R7TLwAAAAJ,45.0,5.0,4.0,18.0,0.0018927071969135941,0.6619661061829737,33.19294066899437
+15,+,des higgins,University College Dublin,ucd.ie,92523.0,id_Ap0K7rUAAAAJ,28.0,11.0,12.0,19.0,0.0037735650318023155,0.6216233549582947,31.269845999504852
+16,-,Clifford Geertz,"Anthropology, Princeton University",,83400.0,id_V4PPW_cAAAAJ,16.0,3.0,3.0,16.0,0.0010938811693788565,0.6210990599761684,31.10964705727736
+17,+,Eugene Koonin,"Senior Investigator, NCBI, NIH",ncbi.nlm.nih.gov,82578.0,id_F4P3ghEAAAAJ,153.0,30.0,75.0,49.0,0.02080907987143851,0.6402847610221104,33.054692044677445
+18,+,James Heckman,"Professor of Economics, University of Chicago",uchicago.edu,81548.0,id_7EelTwgAAAAJ,130.0,23.0,39.0,52.0,0.012508604129254957,0.6392798623063684,32.58942332178116
+19,+,Anil K. Jain,Michigan State University,cse.msu.edu,81337.0,id_g-_ZXGsAAAAJ,129.0,21.0,42.0,60.0,0.014494620750904528,0.6392361710578578,32.68653959043812
+20,+,Albert-Laszlo Barabasi,"Northeastern University, Harvard Medical School",neu.edu,79971.0,id_vsj2slIAAAAJ,68.0,23.0,29.0,60.0,0.009627712586236063,0.6563710048987158,33.299935874247595
+21,+,H. Eugene Stanley,"Professor of Physics, Boston University",bu.edu,77444.0,id_1fatN9EAAAAJ,205.0,25.0,70.0,39.0,0.02085742367177277,0.6623567059446578,34.16070648082153
+22,+,Guido Kroemer,Paris Descartes University,igr.fr,77013.0,id_OU05Q_MAAAAJ,328.0,49.0,148.0,97.0,0.04311564187820584,0.6677307295114525,35.54231856948292
+23,-,John Rawls,"Philosophy, Harvard University",,76920.0,id_clG4xHAAAAAJ,21.0,6.0,5.0,16.0,0.0018074830558798016,0.621317516218721,31.156249963730048
+24,-,Theodor Adorno,"Sociology, Frankfurt School",,76782.0,id_ODdjS34AAAAJ,47.0,6.0,5.0,20.0,0.0027657388077546767,0.6092534886799947,30.60096137438747
+25,-,Anthony Downey Stark,,P.HD em Fï¿½sica-quï¿½ntica,76627.0,id_C_dhdvAAAAAJ,110.0,31.0,45.0,49.0,0.014379629640302191,0.6450060373361578,32.969283348823
+26,+,Geert Hofstede,"Professor Emeritus of Organizational Anthropology and International Management,  &hellip;",bart.nl,74454.0,id_Q2V0P6oAAAAJ,19.0,8.0,8.0,19.0,0.0027869576432891898,0.6410301337216999,32.190854568249456
+27,+,Peter M Bentler,"University of California, Los Angeles",ucla.edu,73567.0,id_esb4VbgAAAAJ,48.0,7.0,7.0,29.0,0.0035249783315336202,0.6752971799285052,33.94110791300194
+28,-,ï¿½mile Durkheim,"Sociology, Universitï¿½ de Bordeaux, La Sorbonne",,73479.0,id_ZCgFBIMAAAAJ,34.0,5.0,3.0,9.0,0.0011407843388608454,0.6086855024493579,30.491314339410938
+29,+,George P. Chrousos,"Professor, School of Medicine, University of Athens",med.uoa.gr,71958.0,id_rMgCyBUAAAAJ,177.0,22.0,48.0,40.0,0.015514658282056197,0.6611333509863629,33.83240046342097
+30,+,Robert M May,"Professor of Zoology, University of Oxford",zoo.ox.ac.uk,71091.0,id_ScXat-4AAAAJ,25.0,9.0,8.0,24.0,0.0027872741472709643,0.6412922812127632,32.20397776800171
+31,-,carlo adamo,Chimie Paristech,,70579.0,id_kYC-FxkAAAAJ,132.0,19.0,36.0,59.0,0.013314550963045487,0.6723672448033894,34.28408978832175
+32,-,James S. Coleman,"Sociology, University of Chicago",,70569.0,id_ROl-Dh0AAAAJ,3.0,1.0,0.0,1.0,7.199447940004687e-05,0.6601310737455316,33.010153411246584
+33,+,Jeffrey Ullman," Professor of Computer Science, Stanford University",stanford.edu,70258.0,id_wUJ2bXgAAAAJ,27.0,6.0,4.0,22.0,0.002203561911092193,0.6677796637097843,33.49916128104382
+34,+,Katherine Flegal,"Senior Scientist, National Center for Health Statistics, Centers for Disease Control and  &hellip;",cdc.gov,69066.0,id_D7CrQZkAAAAJ,51.0,18.0,20.0,51.0,0.008005378303021591,0.6424282536740369,32.52168159885292
+35,+,David S. Johnson,"Head, Algorithms and Optimization Research Dept, AT&amp;T Labs - Research",research.att.com,66739.0,id_LyEq7qEAAAAJ,10.0,4.0,1.0,6.0,0.0008613274920051423,0.6340369124851053,31.744911998855525
+36,+,B Efron,"Professor of statistics,  Stanford University",stat.stanford.edu,66639.0,id_duBlF_YAAAAJ,24.0,10.0,10.0,19.0,0.002706971299140957,0.6280485899642526,31.53777806316968
+37,-,Talcott Parsons,"Sociology, Harvard University",,65669.0,id_rWPcKqkAAAAJ,3.0,1.0,0.0,2.0,0.00018169383658550776,0.7063310737455316,35.32563837910585
+38,+,yanxi liu,Penn State University,cse.psu.edu,65619.0,id_9gpR5y0AAAAJ,2342.0,43.0,461.0,63.0,0.18407634339350148,0.7425249040116508,46.330062370257636
+39,+,Rakesh Agrawal,"Technical Fellow, Microsoft Research",microsoft.com,65030.0,id_XPdhXUUAAAAJ,56.0,10.0,10.0,23.0,0.003409896708810259,0.6558467099165894,32.962830331269984
+40,-,Robert Merton,"Sociology, Columbia University",,64655.0,id_FizCgdoAAAAJ,6.0,1.0,0.0,1.0,4.542345914637694e-05,0.6602621474910633,33.01537854751048
+41,+,Mike Robb,Chemistry Department Imperial College,imperial.ac.uk,64557.0,id_kq0NYnMAAAAJ,50.0,14.0,17.0,27.0,0.005676749558162452,0.6225845624255263,31.41306559918443
+42,-,Charles Darwin,,,63798.0,id_bLg9maoAAAAJ,70.0,7.0,6.0,35.0,0.002658106370920341,0.5904583873957369,29.655824688332856
+43,+,Joseph Wang,"New Mexico State university, Arizona State university, Technion, University California San  &hellip;",ucsd.edu,62607.0,id_0DEykT4AAAAJ,931.0,34.0,217.0,54.0,0.07962442877370697,0.6874765523632994,38.35504905685032
+44,+,Terrence Sejnowski,"Francis Crick Professor, Salk Institute and Professor of Biology and Computer Science,  &hellip;",salk.edu,62002.0,id_m1qAiOUAAAAJ,97.0,19.0,29.0,30.0,0.009375488164025348,0.644438051105521,32.69067696347732
+45,-,Albert Einstein,"Institute of Advanced Studies, Princeton",,61882.0,id_qc6CJjYAAAAJ,60.0,9.0,8.0,37.0,0.002760453240402257,0.6494214749106316,32.6090964075517
+46,-,Hans Eysenck,"Psychology, King&#39;s College London",,61767.0,id_FZzaeRsAAAAJ,2.0,2.0,2.0,2.0,0.0006143092198233598,0.6600873824970211,33.03508458584222
+47,-,Benoï¿½t B. Mandelbrot,"Mathematics, IBM/Yale University",,61025.0,id_vZA2pjwAAAAJ,16.0,6.0,4.0,14.0,0.0016232033546308038,0.6144990599761685,30.80611316653997
+48,-,Anuj Kumar Singh,"Research Associate, Orissa University of Agriculture and Technology,Bhubaneswar",,60966.0,id_XSGHN8IAAAAJ,5696.0,35.0,238.0,55.0,0.16220220968466187,0.9154653515159541,53.883378060030786
+49,+,Jeffrey S. Flier,"Dean, Harvard Medical School",Hms.Harvard.edu,60406.0,id_JmMtY3IAAAAJ,24.0,9.0,8.0,17.0,0.002840582289579658,0.6280485899642526,31.544458612691606
+50,+,Richard S Ellis,"Steele Professor of Astronomy, California Institute of Technology",astro.caltech.edu,59150.0,id_Jde99xEAAAAJ,151.0,29.0,55.0,54.0,0.014723598337169175,0.6467973785250893,33.07604884311293
+51,+,Hari Balakrishnan,MIT,csail.mit.edu,58580.0,id_Qf4bw4UAAAAJ,112.0,18.0,27.0,48.0,0.009874567798828816,0.6582934198331789,33.40839938160038
+52,+,Paul Costa,Adjunct Professor of Medical Psychology,dm.Duke.edu,57415.0,id_UTRJOukAAAAJ,73.0,18.0,31.0,28.0,0.00913709664263116,0.6367894611412683,32.29632788919498
+53,+,Richard Thaler,"Professor, University of Chicago Booth School of Business",chicagobooth.edu,57147.0,id_mQHCuRgAAAAJ,39.0,8.0,6.0,39.0,0.0035771963068838455,0.6089039586919106,30.62405774993972
+54,-,Linus Pauling,"Professor, CalTech",,55465.0,id_b0B12YAAAAAJ,3.0,0.0,0.0,0.0,0.0,0.5479310737455316,27.39655368727658
+55,+,Antonio Lanzavecchia,"Professor of Immunology ETH Zurich, Director Institute for Research in Biomedicine",irb.usi.ch,55056.0,id_lcq610IAAAAJ,86.0,19.0,25.0,36.0,0.007694218806678255,0.6637574473719051,33.57258330892917
+56,+,Chris Sander,"Memorial Sloan Kettering Cancer Center, Rockefeller University, Cornell University",mskcc.org,54228.0,id_4R7_wW8AAAAJ,69.0,24.0,33.0,48.0,0.010125374352527484,0.6762146961472263,34.31700352498769
+57,+,Gunnar von Heijne,Stockholm University,dbb.su.se,54071.0,id_saY_ivoAAAAJ,46.0,14.0,18.0,26.0,0.004975479888633619,0.6620097974314842,33.3492638660059
+58,+,Michael B. Eisen,"Investigator, HHMI and Associate Professor of Molecular and Cell Biology, UC Berkeley",berkeley.edu,53957.0,id_z2foFg4AAAAJ,36.0,16.0,21.0,32.0,0.006132747317034764,0.6219728849463789,31.405281613170686
+59,+,Jonathan D. Cohen,"Professor of Psychology, Co-Director of Princeton Neuroscience Institute, Princeton  &hellip;",princeton.edu,53566.0,id_NCkkQAMAAAAJ,65.0,18.0,30.0,39.0,0.00950622037757243,0.6166399311531843,31.307307576537838
+60,+,William Greene,"Professor of Economics and Statistics, Stern School of Business, NYU",stern.nyu.edu,53527.0,id_yGK7HigAAAAJ,53.0,16.0,21.0,36.0,0.005693715254645485,0.6491156361710578,32.74046757128517
+61,+,Carlos Frenk,"Ogden Professor of Fundamental Physics, Durham University",durham.ac.uk,53287.0,id_1sSj1fYAAAAJ,137.0,28.0,51.0,52.0,0.01600203835702886,0.679185701045942,34.75938697014854
+62,+,Geoffrey Hinton,"Professor of Computer Science, University of Toronto",cs.toronto.edu,53178.0,id_JicYPdAAAAAJ,67.0,22.0,33.0,35.0,0.009477003588132756,0.6497273136502052,32.9602158619169
+63,+,remuzzi g*,Istituto di Ricerche Farmacologiche Mario Negri ,marionegri.it,52745.0,id_LYz-mFwAAAAJ,229.0,28.0,66.0,56.0,0.0237158237766491,0.6502052959089104,33.696055984277976
+64,+,Edward L. Wright,"Professor of Physics and Astronomy, UCLA",astro.ucla.edu,52372.0,id_0rlyyTwAAAAJ,340.0,20.0,31.0,99.0,0.011565390828867258,0.6814550244935788,34.6510207661223
+65,+,Michael I. Jordan,"Professor of EECS and Professor of Statistics, University of California, Berkeley",cs.berkeley.edu,51378.0,id_yxUduqMAAAAJ,140.0,27.0,56.0,52.0,0.017930837273343984,0.6463167747914735,33.212380603240874
+66,+,Alex `Sandy&#39; Pentland,Professor MIT,mit.edu,51292.0,id_P4nfoKYAAAAJ,120.0,18.0,28.0,43.0,0.010595600655325893,0.6652429498212632,33.79192752382946
+67,+,Thomas L. Madden,"Staff Scientist, NCBI, NLM, NIH",ncbi.nlm.nih.gov,51062.0,id_eK0R0a4AAAAJ,9.0,5.0,5.0,9.0,0.001760726755627537,0.6471932212365947,32.44769739961112
+68,+,Steven Salzberg,"Professor of Medicine and Biostatistics, Johns Hopkins University",jhu.edu,50706.0,id_sUVeH-4AAAAJ,75.0,24.0,35.0,66.0,0.011437234351881022,0.6434768436382894,32.74570389950852
+69,+,Paul Milgrom,"Professor of Economics, Stanford University",stanford.edu,50406.0,id_b4cFNacAAAAJ,31.0,11.0,12.0,20.0,0.003176571147669728,0.6085544287038264,30.586549992574806
+70,+,Stephen Boyd,"Professor of Electrical Engineering, Stanford University",stanford.edu,50233.0,id_GExyiRkAAAAJ,119.0,20.0,38.0,56.0,0.013571949407899202,0.6387992585727525,32.61856039903259
+71,+,Sudhir Kumar,Foundation Professor of Life Sciences &amp; Director of Center for Evolutionary Medicine and  &hellip;,asu.edu,49789.0,id_G5zYeD8AAAAJ,34.0,12.0,15.0,34.0,0.004865525204450669,0.6680855024493578,33.64755138269043
+72,+,Klaus Schulten,"Professor of Physics, University of Illinois at Urbana-Champaign",ks.uiuc.edu,49604.0,id_k7vghtEAAAAJ,167.0,29.0,66.0,44.0,0.01988475344727371,0.6606964385012578,34.029059597426574
+73,+,Mark D Adams,J Craig Venter Institute,jcvi.org,49598.0,id_hKV4ZD8AAAAJ,31.0,11.0,11.0,24.0,0.0036332885519815062,0.6547544287038264,32.91938586279039
+74,-,Richard Feynman,California Institute of Technology,,49255.0,id_B7vSqZsAAAAJ,3.0,3.0,2.0,3.0,0.0007407036034737768,0.6601310737455316,33.04358886745027
+75,+,Garret A. FitzGerald,U. Penn,upenn.edu,49095.0,id_u6GisbUAAAAJ,70.0,19.0,24.0,29.0,0.00760852302534302,0.6432583873957368,32.543345521053986
+76,+,Guy Salvesen,"Professor, Sanford-Burnham Medical Research Institute",sanfordburnham.org,48657.0,id_xke6pR0AAAAJ,69.0,17.0,24.0,28.0,0.008012351814724613,0.6696146961472264,33.88135239809755
+77,+,Stylianos E. Antonarakis,"Professor of Genetic Medicine, University of Geneva Medical School",unige.ch,48621.0,id_HJyMVXoAAAAJ,94.0,18.0,29.0,36.0,0.010034339359474122,0.6377069773599894,32.387065835973175
+78,+,Lewis L Lanier,"Professor of Microbiology and Immunology, UCSF",ucsf.edu,48540.0,id_Vo2jOVYAAAAJ,92.0,23.0,37.0,45.0,0.011493493671975104,0.6508195948629684,33.11565442674717
+79,+,Don Norman,"Prof. Emeritus, Northwestern University",northwestern.edu,48248.0,id_h-2JebwAAAAJ,35.0,9.0,9.0,20.0,0.003566784566123664,0.5955291936978684,29.954798913199607
+80,+,Ewan Birney,"Associate Director, EBI",ebi.ac.uk,48132.0,id_ftd3UB0AAAAJ,87.0,31.0,53.0,75.0,0.015549393446826513,0.6506011386204158,33.307526603362106
+81,-,Allen Newell,"Professor of Computer Science, Carnegie Mellon",,47708.0,id_5WfqzjkAAAAJ,2.0,0.0,0.0,0.0,0.0,0.6270873824970211,31.35436912485105
+82,+,William G Cochran 1909-1980,"Professor of Statistics, Harvard University",stat.harvard.edu,47085.0,id_uCYQp-YAAAAJ,1.0,0.0,0.0,0.0,0.0,0.6600436912485105,33.00218456242553
+83,+,Andrew P. Feinberg,"Director, Center for Epigenetics; Professor, Johns Hopkins University",jhu.edu,46673.0,id_tbj-LpcAAAAJ,60.0,20.0,27.0,50.0,0.008144473587628277,0.6428214749106316,32.548297424912995
+84,+,Dan Littman,NYU Langone Medical Center,med.nyu.edu,46494.0,id_k_88WOoAAAAJ,83.0,28.0,45.0,67.0,0.012882486765153215,0.6438263736263736,32.835443019576346
+85,-,John von Neumann,"Professor of Mathematics, Princeton University",,46399.0,id_6kEXBa0AAAAJ,2.0,1.0,0.0,2.0,0.00014398895880009374,0.6930873824970212,34.661568572791055
+86,+,Marco Dorigo,"FNRS Research Director, Universitï¿½ Libre de Bruxelles",ulb.ac.be,46394.0,id_PwYT6EMAAAAJ,112.0,17.0,29.0,30.0,0.01036021925459396,0.6384934198331789,32.44268195438864
+87,+,Giorgio Parisi,"Professor of Theoretical Physics, Rome I University &quot;La Sapienza&quot;",roma1.infn.it,46031.0,id_TeuEgRkAAAAJ,84.0,15.0,23.0,31.0,0.007980503768580484,0.6636700648748842,33.582528432173234
+88,+,John Y. Campbell,"Morton L. and Carole S. Olshan Professor of Economics, Harvard University",harvard.edu,46012.0,id_ailQ-KAAAAAJ,55.0,14.0,15.0,38.0,0.0049802473096145885,0.636003018668079,32.04916329888468
+89,-,Richard Petty,"Professor of Psychology, Ohio State University",,45956.0,id_y4MYDxQAAAAJ,49.0,15.0,21.0,28.0,0.005971697904851003,0.6423408711770158,32.415628454093344
+90,+,Bernhard Schï¿½lkopf,"Director, Max Planck Institute for Intelligent Systems",tuebingen.mpg.de,45802.0,id_DZ-fHPgAAAAJ,159.0,21.0,38.0,37.0,0.014692696451245974,0.6405469085131735,32.761980248220965
+91,+,Charles L. Bennett,Johns Hopkins University,jhu.edu,45170.0,id_QbnvNtQAAAAJ,46.0,13.0,13.0,46.0,0.005297751050632581,0.6290097974314842,31.71537742410584
+92,-,Albert Einstein,Kaiser Wilhelm Institute for Physics,,45085.0,id_yDJQ_LkAAAAJ,40.0,7.0,5.0,24.0,0.0016440932843790387,0.648547649940421,32.50958716124001
+93,+,Philippe Froguel,"Imperial College London, CNRS",imperial.ac.uk,44976.0,id_hYzT7KcAAAAJ,248.0,38.0,91.0,70.0,0.028120622719078836,0.6576354296306104,34.28780261748446
+94,+,Leo Breiman 1928-2005,"Professor of Statistics, UC Berkeley",stat.berkeley.edu,44830.0,id_mXSv_1UAAAAJ,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+95,+,Nick Jennings,"Professor of Computer Science, University of Southampton",ecs.soton.ac.uk,44671.0,id_FX5CsuYAAAAJ,202.0,20.0,39.0,30.0,0.01789155270761561,0.6688256321991262,34.335859245337076
+96,+,Michael A Moskowitz,Harvard Medical School,helix.mgh.harvard.edu,44083.0,id_PGLDt7kAAAAJ,56.0,17.0,25.0,27.0,0.006968388562471145,0.6294467099165895,31.820754923953032
+97,+,Michael Von Korff,Group Health Research Institute,ghc.org,43855.0,id_3d_DFCYAAAAJ,93.0,25.0,42.0,42.0,0.012453531876587076,0.6442632861114789,32.835840899403294
+98,+,Michael VonKorff,Group Health Research Institute,ghc.org,43565.0,id_ZIwu4NQAAAAJ,99.0,25.0,42.0,42.0,0.012544378794879829,0.6511254336025419,33.183490619871094
+99,+,Kenneth Rogoff,"Professor of Economics, Harvard University",harvard.edu,43554.0,id_mcZMzRsAAAAJ,133.0,19.0,25.0,67.0,0.010013984445206054,0.6460109360519,32.801246024855296
